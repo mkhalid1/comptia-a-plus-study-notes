@@ -26,11 +26,11 @@ The rules that apply to both cores (order, retakes, renewal) are on [How CompTIA
 
 | # | Domain | Weight | Roughly how many questions (our estimate) | Practice items | Page |
 |---|---|---|---|---|---|
-| 1.0 | Mobile Devices | 13% | about 11 of up to 90 | 10 | [Domain 1](1-mobile-devices.md) |
-| 2.0 | Networking | 23% | about 20 | 12 | [Domain 2](2-networking.md) |
-| 3.0 | Hardware | 25% | about 22 | 12 | [Domain 3](3-hardware.md) |
-| 4.0 | Virtualization and Cloud Computing | 11% | about 9 | 10 | [Domain 4](4-virtualization-and-cloud-computing.md) |
-| 5.0 | Hardware and Network Troubleshooting | 28% | about 25 | 14 | [Domain 5](5-hardware-and-network-troubleshooting.md) |
+| 1.0 | Mobile Devices | 13% | about 11 of up to 90 | 1 | [Domain 1](1-mobile-devices.md) |
+| 2.0 | Networking | 23% | about 20 | 2 | [Domain 2](2-networking.md) |
+| 3.0 | Hardware | 25% | about 22 | 2 | [Domain 3](3-hardware.md) |
+| 4.0 | Virtualization and Cloud Computing | 11% | about 9 | 1 | [Domain 4](4-virtualization-and-cloud-computing.md) |
+| 5.0 | Hardware and Network Troubleshooting | 28% | about 25 | 2 | [Domain 5](5-hardware-and-network-troubleshooting.md) |
 
 The weights are CompTIA's. The question counts are our arithmetic (weight times 90, rounded down); CompTIA does not publish how many questions come from each domain, and a real exam can differ.
 

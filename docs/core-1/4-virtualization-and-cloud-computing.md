@@ -178,159 +178,9 @@ Across the whole exam, plan on about a minute per multiple-choice item, and long
 
 ## Practice items
 
-These 10 items are original, written for these notes. They are not taken from CompTIA's exam or any prep provider.
+This item is original, written for these notes. It is not taken from CompTIA's exam or any prep provider.
 
 ### Item 1
-
-A user forwards an email with an unexpected attachment to the help desk. The technician wants to open the file and watch what it does without putting the corporate network or their own workstation at risk. What is the BEST approach?
-
-A. Open it on the user's PC, since that PC has already received the file
-
-B. Forward it to the user's manager for approval before opening
-
-C. Open it in a VM with networking disabled, then roll back to a clean snapshot
-
-D. Open it on the file server, because servers have stronger antivirus
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: C.** A VM used as a sandbox isolates the file. With no network access it cannot spread, and rolling back the snapshot removes any changes. (Objective 4.1)
-
-- **A** is wrong because opening it on a production PC risks infecting that PC and the network.
-- **B** is wrong because approval does not make the file safe to open.
-- **D** is wrong because a file server holds shared data and is the worst place to run unknown code.
-
-</details>
-
-### Item 2
-
-A small business buys a new server to run four virtual machines: a domain controller, a file server, a database and a print server. It wants the best performance, with no general-purpose operating system installed underneath the VMs. What should the technician install on the server?
-
-A. A Type 1 hypervisor
-
-B. A Type 2 hypervisor
-
-C. A container engine
-
-D. A VDI client
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: A.** A Type 1 (bare-metal) hypervisor runs directly on the hardware, with less overhead than a hosted hypervisor, which suits servers. (Objective 4.1)
-
-- **B** is wrong because a Type 2 hypervisor runs on top of a host operating system, which the business wants to avoid.
-- **C** is wrong because containers share one host kernel and do not provide four separate full operating systems.
-- **D** is wrong because a VDI client connects to remote desktops; it does not host VMs.
-
-</details>
-
-### Item 3
-
-A firm's billing program runs only on an old Windows version that no longer receives security updates. The PC it runs on is failing. The firm needs the program for two more years. What is the BEST solution?
-
-A. Move the old PC onto the main office network so more staff can reach it
-
-B. Install the program on a new Windows 11 PC and disable updates to keep it compatible
-
-C. Replace the program with a public cloud file sync service
-
-D. Run the old OS in a VM on a modern host and restrict the VM's network access
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: D.** Virtualizing the legacy OS keeps the program running on supported hardware. Because the old OS gets no patches, its network access should be limited. (Objective 4.1)
-
-- **A** is wrong because exposing an unpatched OS to more of the network increases risk and does nothing about the failing hardware.
-- **B** is wrong because the program does not run on the new OS, and disabling updates weakens the new PC.
-- **C** is wrong because file synchronization stores files; it does not run a billing application.
-
-</details>
-
-### Item 4
-
-A development team wants to package a web application with its exact libraries so it runs the same way on developer laptops, test servers and production. Each copy should start in seconds and must not carry a full operating system. Which technology fits BEST?
-
-A. A separate Type 1 VM for each copy
-
-B. Containers
-
-C. Virtual desktop infrastructure
-
-D. Dual-booting each laptop
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: B.** Containers bundle the app and its dependencies and share the host's kernel, so they are small, start quickly and behave the same everywhere. (Objective 4.1)
-
-- **A** is wrong because each VM includes a full guest OS, which the team wants to avoid.
-- **C** is wrong because VDI delivers whole user desktops, not packaged applications.
-- **D** is wrong because dual-booting switches between installed operating systems and does nothing to package the app.
-
-</details>
-
-### Item 5
-
-A call center has 200 agents using thin clients. Each agent signs in to a Windows desktop that runs on servers in the company's data center. When a thin client breaks, the agent moves to a spare and carries on with the same desktop. What is this?
-
-A. Virtual Desktop Infrastructure
-
-B. Containers
-
-C. A Type 2 hypervisor on each thin client
-
-D. Application sandboxing
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: A.** In VDI, desktops run as VMs on central servers and users connect from any device, so the device itself is replaceable. (Objective 4.1)
-
-- **B** is wrong because containers package applications, not full user desktops.
-- **C** is wrong because the desktops run in the data center, not on the thin clients.
-- **D** is wrong because a sandbox isolates risky code; it is not a way to deliver desktops to users.
-
-</details>
-
-### Item 6
-
-A technician builds a test VM to host a small web app. Coworkers on the office network cannot reach the app, although the technician can browse to it from inside the VM. The VM settings are shown.
-
-```
-VM name ............ HELPDESK-TEST
-Guest OS ........... Windows 11
-Memory ............. 4096 MB
-Network adapter .... NAT
-Host IP address .... 192.168.1.40
-Guest IP address ... 10.0.2.15
-Office LAN ......... 192.168.1.0/24
-```
-
-What change will let coworkers reach the web app?
-
-A. Increase the VM's memory to 8192 MB
-
-B. Change the network adapter to host-only
-
-C. Change the network adapter to bridged
-
-D. Add a second virtual hard disk
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: C.** In NAT mode the guest sits behind the host on a private network (10.0.2.15), so LAN devices cannot easily reach it. Bridged mode puts the guest on the office LAN with its own 192.168.1.x address. (Objective 4.1)
-
-- **A** is wrong because the app works inside the VM, so memory is not the problem.
-- **B** is wrong because host-only limits the guest to the host and other guests, which blocks coworkers even more.
-- **D** is wrong because storage has nothing to do with network reachability.
-
-</details>
-
-### Item 7
 
 An online store's traffic triples every December. The owner wants extra servers to be added automatically during busy periods and removed afterwards, and wants to pay only for the capacity actually used. Which two cloud characteristics is the owner describing? Choose two.
 
@@ -355,85 +205,17 @@ E. Community cloud
 
 </details>
 
-### Item 8
-
-A company's developers want to deploy their web application code to the cloud. They do not want to install, patch or manage the operating system or the runtime. They will manage their own code and data. Which service model fits?
-
-A. IaaS
-
-B. SaaS
-
-C. Private cloud
-
-D. PaaS
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: D.** In platform as a service, the provider manages the OS and runtime and the customer brings the code and data. (Objective 4.2)
-
-- **A** is wrong because with IaaS the customer manages the OS and everything above it.
-- **B** is wrong because SaaS is a finished application; the customer does not deploy its own code.
-- **C** is wrong because private cloud is a deployment model (who uses the infrastructure), not a service model.
-
-</details>
-
-### Item 9
-
-Four regional hospitals agree to share one cloud environment built to meet the same health-data regulations. They split the cost, and no other organizations use it. Which cloud model is this?
-
-A. Public cloud
-
-B. Community cloud
-
-C. Hybrid cloud
-
-D. Private cloud
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: B.** A community cloud is shared by several organizations with common requirements, such as the same regulations. (Objective 4.2)
-
-- **A** is wrong because a public cloud is open to many unrelated customers.
-- **C** is wrong because hybrid describes one organization combining private and public cloud.
-- **D** is wrong because a private cloud serves a single organization, and four hospitals share this one.
-
-</details>
-
-### Item 10
-
-A technician installs VirtualBox on a user's desktop. When creating a 64-bit VM, the software reports that hardware virtualization is not available. The PC has 32 GB of RAM and a recent CPU. What should the technician check FIRST?
-
-A. Whether the host has enough free disk space for the virtual disk
-
-B. Whether the VM's network adapter is set to bridged
-
-C. Whether Intel VT-x or AMD-V is enabled in the UEFI settings
-
-D. Whether the guest OS installer image is corrupted
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: C.** Hypervisors need CPU virtualization extensions, and these are often turned off in firmware by default. The error message points directly at this requirement. (Objective 4.1)
-
-- **A** is wrong because low disk space produces a storage error, not a hardware virtualization error.
-- **B** is wrong because the network mode does not affect whether a VM can start.
-- **D** is wrong because a bad installer would fail during installation, after the VM itself starts.
-
-</details>
+Want more? The [free timed CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus) has 25 questions across both cores, with your score split by domain.
 
 ## Score yourself
 
-| Item | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Answer | C | A | D | B | A | C | B, D | D | B | C |
-| Objective | 4.1 | 4.1 | 4.1 | 4.1 | 4.1 | 4.1 | 4.2 | 4.2 | 4.2 | 4.1 |
+| Item | 1 |
+|---|---|
+| Answer | B, D |
+| Objective | 4.2 |
 
-- **9 to 10:** strong. This domain is small, so keep it warm with a quick review of the tables and spend your time on Domains 3 and 5.
-- **7 to 8:** note which terms you confused. The usual pairs are Type 1 and Type 2, PaaS and SaaS, and hybrid and community. Reread those rows in [Key concepts](#key-concepts-explained).
-- **6 or fewer:** reread [4.1 Virtualization concepts](#41-virtualization-concepts) and [4.2 Cloud computing concepts](#42-cloud-computing-concepts), then write the service model responsibility table and the four cloud models from memory before redoing the items.
+- **Correct:** strong. This domain is small, so keep it warm with a quick review of the tables and spend your time on Domains 3 and 5.
+- **Missed:** reread [4.1 Virtualization concepts](#41-virtualization-concepts) and [4.2 Cloud computing concepts](#42-cloud-computing-concepts), then write the service model responsibility table and the four cloud models from memory before redoing the item.
 
 ## Next step
 

@@ -26,10 +26,10 @@ Note the passing score: 700, higher than Core 1's 675. The rules that apply to b
 
 | # | Domain | Weight | Roughly how many questions (our estimate) | Practice items | Page |
 |---|---|---|---|---|---|
-| 1.0 | Operating Systems | 28% | about 25 of up to 90 | 14 | [Domain 1](1-operating-systems.md) |
-| 2.0 | Security | 28% | about 25 | 14 | [Domain 2](2-security.md) |
-| 3.0 | Software Troubleshooting | 23% | about 20 | 12 | [Domain 3](3-software-troubleshooting.md) |
-| 4.0 | Operational Procedures | 21% | about 18 | 10 | [Domain 4](4-operational-procedures.md) |
+| 1.0 | Operating Systems | 28% | about 25 of up to 90 | 2 | [Domain 1](1-operating-systems.md) |
+| 2.0 | Security | 28% | about 25 | 2 | [Domain 2](2-security.md) |
+| 3.0 | Software Troubleshooting | 23% | about 20 | 2 | [Domain 3](3-software-troubleshooting.md) |
+| 4.0 | Operational Procedures | 21% | about 18 | 2 | [Domain 4](4-operational-procedures.md) |
 
 The weights are CompTIA's. The question counts are our arithmetic (weight times 90, rounded down); CompTIA does not publish how many questions come from each domain, and a real exam can differ.
 

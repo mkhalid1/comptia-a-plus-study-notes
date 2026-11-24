@@ -209,134 +209,9 @@ The exam is one 90-minute block with up to 90 questions, so aim for about a minu
 
 ## Practice items
 
-These 10 items are original, written for these notes. They are not taken from CompTIA's exam or any prep provider.
+This item is original, written for these notes. It is not taken from CompTIA's exam or any prep provider.
 
 ### Item 1
-
-A user brings in a laptop and says the trackpad has started to bulge upward and the lid no longer closes flat. The laptop still turns on. What should the technician do FIRST?
-
-A. Power the laptop off, unplug it, and arrange to replace the battery with a part that matches the manufacturer's specification
-
-B. Fully charge and drain the battery three times to recalibrate it
-
-C. Update the BIOS and the battery driver
-
-D. Puncture the battery casing to release the trapped gas
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: A.** A bulging trackpad and a lid that will not close are classic signs of a swollen lithium-ion battery, which is a fire risk. Stop using the device, power it off, unplug it and replace the battery. (Objective 1.1)
-
-- **B** is wrong because charging a swollen battery adds heat and stress and does nothing for physical swelling.
-- **C** is wrong because swelling is a physical failure that firmware cannot fix.
-- **D** is wrong because puncturing a lithium battery can cause a fire or explosion.
-
-</details>
-
-### Item 2
-
-A technician replaces the cracked screen assembly on a laptop. Everything works afterwards, but the laptop now shows only two nearby Wi-Fi networks, and the signal drops when the user moves to the next room. Before the repair, the laptop saw many networks. What is the MOST likely cause?
-
-A. The wireless driver was deleted during the repair
-
-B. A Wi-Fi antenna lead was not reconnected or was pinched in the hinge
-
-C. The access point needs a firmware update
-
-D. The new screen is interfering with the 5 GHz band
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: B.** The Wi-Fi antennas run through the display lid and connect to the wireless card. A loose or pinched lead after a screen repair gives exactly this weak, short-range signal. (Objective 1.1)
-
-- **A** is wrong because a missing driver would stop Wi-Fi completely rather than weaken it.
-- **C** is wrong because the problem started with this laptop's repair, and other devices are not mentioned as affected.
-- **D** is wrong because a display panel does not block a specific Wi-Fi band.
-
-</details>
-
-### Item 3
-
-A user says her laptop now lasts about an hour on battery. The technician runs `powercfg /batteryreport` and sees this:
-
-```
-DESIGN CAPACITY          57,020 mWh
-FULL CHARGE CAPACITY     23,410 mWh
-CYCLE COUNT              941
-```
-
-What should the technician recommend?
-
-A. Lower the screen brightness, because the battery is healthy
-
-B. Replace the power adapter
-
-C. Replace the battery, because it now holds well under half of its design capacity
-
-D. Reinstall the operating system to remove background apps
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: C.** The battery now holds about 41% of its original capacity after more than 900 cycles. That wear explains the short runtime, and the fix is a new battery. (Objective 1.1)
-
-- **A** is wrong because the report shows the battery is badly worn, not healthy. Lower brightness would help only a little.
-- **B** is wrong because the adapter charges the battery; it cannot restore lost capacity.
-- **D** is wrong because software does not explain a 59% loss of measured capacity.
-
-</details>
-
-### Item 4
-
-A sales rep wants to pay at a shop by tapping her phone on the card terminal, and then listen to music in her car through the car's speakers without a cable. Which two wireless technologies does she need? (Choose two.)
-
-A. NFC
-
-B. Lightning
-
-C. Bluetooth
-
-D. microUSB
-
-E. USB tethering
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: A and C.** NFC handles tap-to-pay at a few centimeters. Bluetooth streams audio to a car kit or speaker. (Objective 1.2)
-
-- **B** is wrong because Lightning is a wired Apple connector.
-- **D** is wrong because microUSB is a wired connector.
-- **E** is wrong because USB tethering is a wired way to share a phone's internet connection, not audio.
-
-</details>
-
-### Item 5
-
-A help desk technician needs to order a spare charging cable for an employee's iPhone 12. Which connector must the phone end of the cable have?
-
-A. USB-C
-
-B. microUSB
-
-C. miniUSB
-
-D. Lightning
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: D.** iPhones before the iPhone 15 use Apple's Lightning connector. (Objective 1.2)
-
-- **A** is wrong because Apple moved iPhones to USB-C starting with the iPhone 15.
-- **B** is wrong because microUSB is used on older Android phones and accessories, not iPhones.
-- **C** is wrong because miniUSB is an older connector used on old cameras and similar devices.
-
-</details>
-
-### Item 6
 
 A consultant is at a client site with no guest Wi-Fi. He needs internet on his laptop. His phone has a cellular data plan, and the client does not want any new wireless networks broadcasting in the building. What is the BEST option?
 
@@ -359,108 +234,17 @@ D. Insert the phone's SIM card into the laptop's USB port
 
 </details>
 
-### Item 7
-
-A user is pairing a new Bluetooth headset with a company laptop. Which order of steps is correct?
-
-A. Enter the PIN, enable Bluetooth, find the device, test connectivity, enable pairing on the headset
-
-B. Find the device, enable Bluetooth, enable pairing on the headset, test connectivity, enter the PIN
-
-C. Enable pairing on the headset, test connectivity, enable Bluetooth, enter the PIN, find the device
-
-D. Enable Bluetooth, enable pairing on the headset, find the device, enter the PIN, test connectivity
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: D.** Bluetooth has to be on first. Then the headset is put into pairing mode so it can be discovered, the laptop finds it, the PIN or code is confirmed, and finally you test it. (Objective 1.3)
-
-- **A** is wrong because there is nothing to enter a PIN for until the device has been found.
-- **B** is wrong because the laptop cannot find anything before Bluetooth is turned on.
-- **C** is wrong because you cannot test a connection that does not exist yet.
-
-</details>
-
-### Item 8
-
-A company lets staff read work email on their personal phones. When an employee leaves, the company must remove its email, files and apps from the phone without touching the person's own photos and messages. What should the company use?
-
-A. MDM with a BYOD work profile that supports a selective wipe
-
-B. A factory reset sent to the phone when the employee leaves
-
-C. A stronger Wi-Fi passphrase in the office
-
-D. Bluetooth pairing with an approved company laptop
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: A.** Mobile device management can separate corporate apps and data in a work profile or container on a BYOD phone and remove only that part. (Objective 1.3)
-
-- **B** is wrong because a factory reset erases the employee's personal data, which the company must not touch.
-- **C** is wrong because a Wi-Fi passphrase does nothing about data already on the phone.
-- **D** is wrong because pairing with a laptop does not control or remove corporate data.
-
-</details>
-
-### Item 9
-
-A field technician's job-dispatch app keeps placing him several hundred meters from where he is standing outdoors. Other apps work normally. Which setting should the help desk check?
-
-A. Whether Bluetooth is turned on
-
-B. Whether the phone is set to sync calendars over Wi-Fi only
-
-C. Whether location services and GPS are enabled and the app has precise location permission
-
-D. Whether the phone has an eSIM or a physical SIM
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: C.** An error of hundreds of meters outdoors suggests the phone is using rough cellular location instead of GPS, or the app only has approximate location permission. (Objective 1.3)
-
-- **A** is wrong because Bluetooth is not needed for GPS positioning outdoors.
-- **B** is wrong because calendar sync settings do not affect location accuracy.
-- **D** is wrong because the SIM type does not change how accurately the phone finds its position.
-
-</details>
-
-### Item 10
-
-An employee's company phone reaches its monthly cellular data cap in the first week of every month. The data usage screen shows the cloud storage app is using the most data, because the employee takes many site photos. What is the BEST fix?
-
-A. Replace the phone's battery
-
-B. Set the cloud storage app to back up photos over Wi-Fi only
-
-C. Turn off Bluetooth when not in use
-
-D. Remove the corporate email account
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: B.** Photo backup over cellular is burning the data allowance. Limiting it to Wi-Fi keeps the backups and protects the data cap. (Objective 1.3)
-
-- **A** is wrong because the battery has nothing to do with cellular data use.
-- **C** is wrong because Bluetooth does not use the cellular data plan.
-- **D** is wrong because email is not the app using the data, and the employee still needs it.
-
-</details>
+Want more? The [free timed CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus) has 25 questions across both cores, with your score split by domain.
 
 ## Score yourself
 
-| Item | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Answer | A | B | C | A, C | D | B | D | A | C | B |
-| Objective | 1.1 | 1.1 | 1.1 | 1.2 | 1.2 | 1.2 | 1.3 | 1.3 | 1.3 | 1.3 |
+| Item | 1 |
+|---|---|
+| Answer | B |
+| Objective | 1.2 |
 
-- **9 to 10:** strong. Keep this domain fresh with a few mixed questions a week and put your hours into Domains 2, 3 and 5, which carry far more weight.
-- **7 to 8:** note which objective your misses came from. Repair-sequence and connector misses mean reread [1.1 Laptop hardware and replacement](#11-laptop-hardware-and-replacement) and [1.2 Accessories and connectivity](#12-accessories-and-connectivity).
-- **6 or fewer:** spend a study session here. Write the safe replacement checklist and the Bluetooth pairing steps from memory, build your own connector table, then read [1.3 Mobile networking and app support](#13-mobile-networking-and-app-support) again before redoing the items.
+- **Correct:** strong. Keep this domain fresh with a few mixed questions a week and put your hours into Domains 2, 3 and 5, which carry far more weight.
+- **Missed:** spend a study session here. Write the safe replacement checklist and the Bluetooth pairing steps from memory, build your own connector table, then read [1.3 Mobile networking and app support](#13-mobile-networking-and-app-support) again before redoing the item.
 
 ## Next step
 

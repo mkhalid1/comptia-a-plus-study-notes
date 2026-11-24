@@ -550,124 +550,9 @@ Core 2 is one 90-minute block with up to 90 questions, so the average is about a
 
 ## Practice items
 
-These 14 items are original, written for these notes. They are not taken from CompTIA's exam or any prep provider.
+These 2 items are original, written for these notes. They are not taken from CompTIA's exam or any prep provider.
 
 ### Item 1
-
-A video editor moves raw footage between a Windows 11 PC and a MacBook on one external USB drive. Some clips are 12 GB. The drive must be readable and writable on both computers without extra software. Which file system should the technician use?
-
-A. NTFS
-
-B. FAT32
-
-C. exFAT
-
-D. APFS
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: C.** exFAT is read and write on both Windows and macOS and has no 4 GB file size limit. (Objective 1.1)
-
-- **A** is wrong because macOS can read NTFS but cannot write to it without extra software.
-- **B** is wrong because FAT32 cannot store a single file larger than 4 GB.
-- **D** is wrong because Windows cannot read APFS natively.
-
-</details>
-
-### Item 2
-
-A technician adds a new 4 TB data drive to a UEFI-based Windows 11 PC and initializes it in Disk Management. Only about 2 TB can be allocated; the rest shows as unusable. What should the technician do?
-
-A. Initialize the disk as GPT instead of MBR
-
-B. Create an extended partition for the remaining space
-
-C. Format the disk with FAT32
-
-D. Switch the firmware to legacy BIOS mode
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: A.** An MBR disk can address only 2 TB. A GPT disk can use the whole drive. The disk is empty, so converting costs nothing. (Objective 1.2)
-
-- **B** is wrong because the 2 TB limit applies to the whole MBR disk, so an extended partition cannot reach the rest either.
-- **C** is wrong because the file system does not change the partition table limit, and FAT32 is a poor choice for a large data drive.
-- **D** is wrong because legacy BIOS mode goes the wrong way and would also stop Windows 11 from booting properly.
-
-</details>
-
-### Item 3
-
-A technician is preparing to do an in-place upgrade of a user's Windows 10 Pro laptop to Windows 11 Pro. The PC Health Check app reports that the laptop meets all requirements. What should the technician do FIRST?
-
-A. Run Windows 11 Setup from installation media
-
-B. Format the drive and perform a clean install
-
-C. Convert the system disk from MBR to GPT
-
-D. Back up the user's files and settings
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: D.** Compatibility is already confirmed, so the next step is protecting the user's data before any change. An in-place upgrade usually keeps files, but a backup covers the cases where it does not. (Objective 1.2)
-
-- **A** is wrong because starting setup before a backup risks the user's data.
-- **B** is wrong because the goal is an in-place upgrade that keeps files and apps.
-- **C** is wrong because Health Check already confirmed the system meets the requirements, which include UEFI with a GPT system disk.
-
-</details>
-
-### Item 4
-
-A small accounting firm bought a laptop with Windows 11 Home. The firm's IT provider needs the laptop to join the company domain and receive Group Policy settings. The user's files and apps must stay. What should the technician do?
-
-A. Perform a clean install of Windows 11 Home N
-
-B. Upgrade the edition to Windows 11 Pro with a Pro product key
-
-C. Turn on device encryption and BitLocker
-
-D. Install the Local Group Policy Editor from the Microsoft Store
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: B.** Home cannot join a domain. An edition upgrade to Pro unlocks domain join and Group Policy without reinstalling, so files and apps stay. (Objective 1.3)
-
-- **A** is wrong because an N edition is Home without media apps, and still cannot join a domain. A clean install would also remove the user's files.
-- **C** is wrong because encryption has nothing to do with joining a domain, and Home has no BitLocker.
-- **D** is wrong because gpedit.msc is not available for Home from the Store, and local policy is not domain Group Policy anyway.
-
-</details>
-
-### Item 5
-
-Task Manager on a user's PC shows the disk at 100% activity for long periods. The technician wants to see which process is reading and writing which files right now. Which tool should the technician open?
-
-A. Performance Monitor
-
-B. Event Viewer
-
-C. Resource Monitor
-
-D. Disk Defragment
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: C.** Resource Monitor's Disk tab lists live disk activity by process and by file. (Objective 1.4)
-
-- **A** is wrong because Performance Monitor tracks counters over time; it does not list which files each process is touching.
-- **B** is wrong because Event Viewer records events that already happened, not live disk activity.
-- **D** is wrong because Optimize Drives defragments or trims drives; it does not show what is using the disk.
-
-</details>
-
-### Item 6
 
 An administrator changed a Group Policy object that maps a printer for the Sales team. A sales user's PC still does not have the printer. The technician wants to apply policy on that PC immediately and then confirm which policy objects were applied. Which TWO commands should the technician run? (Choose two.)
 
@@ -692,136 +577,7 @@ E. gpresult /r
 
 </details>
 
-### Item 7
-
-A user needs drive letter S: mapped to the Sales share on server FS01. The mapping must come back every time the user signs in. Which command does this?
-
-A. `net use S: \\FS01\Sales /persistent:yes`
-
-B. `net user S: \\FS01\Sales /add`
-
-C. `robocopy \\FS01\Sales S:\ /mir`
-
-D. `md S:\\FS01\Sales`
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: A.** `net use` maps a drive letter to a UNC path, and `/persistent:yes` reconnects it at each sign-in. (Objective 1.5)
-
-- **B** is wrong because `net user` manages user accounts, not drive mappings.
-- **C** is wrong because robocopy copies files; it would not create a mapping, and S: does not exist yet.
-- **D** is wrong because `md` creates a folder and the path given is not valid.
-
-</details>
-
-### Item 8
-
-A user works with a laptop on a dock, using an external monitor, keyboard and mouse with the laptop lid closed. Every time the user closes the lid, the laptop goes to sleep. Where should the technician fix this?
-
-A. Turn off fast startup in Power Options
-
-B. Disable USB selective suspend in the power plan
-
-C. Set the computer to hibernate after 30 minutes
-
-D. In Power Options, set what closing the lid does to Do nothing when plugged in
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: D.** "Choose what closing the lid does" controls this exact behavior, with separate settings for battery and plugged in. (Objective 1.6)
-
-- **A** is wrong because fast startup affects how the PC shuts down and boots, not what the lid does.
-- **B** is wrong because selective suspend powers down idle USB ports; it does not cause sleep on lid close.
-- **C** is wrong because a hibernate timer still lets the lid close trigger sleep.
-
-</details>
-
-### Item 9
-
-A user says nothing on the network works on a wired PC. The technician runs `ipconfig /all`. Part of the output is below.
-
-```
-Ethernet adapter Ethernet:
-
-   Description . . . . . . . . . . . : Intel(R) Ethernet Connection
-   Physical Address. . . . . . . . . : 3C-52-82-1A-7F-09
-   DHCP Enabled. . . . . . . . . . . : Yes
-   Autoconfiguration Enabled . . . . : Yes
-   Autoconfiguration IPv4 Address. . : 169.254.88.17(Preferred)
-   Subnet Mask . . . . . . . . . . . : 255.255.0.0
-   Default Gateway . . . . . . . . . :
-```
-
-What is the MOST likely cause?
-
-A. The PC has a static IP address in the wrong subnet
-
-B. The PC could not get an address from a DHCP server
-
-C. The DNS server is not responding
-
-D. Another device on the network has the same IP address
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: B.** DHCP is enabled, but the PC assigned itself a 169.254.x.x APIPA address with no gateway, which happens when no DHCP server answers. Next, check the cable and switch port, then run `ipconfig /release` and `ipconfig /renew`. (Objective 1.7)
-
-- **A** is wrong because the output shows DHCP enabled, so the address was not typed in by hand.
-- **C** is wrong because a DNS fault leaves a normal IP address and gateway; here there is no valid address at all.
-- **D** is wrong because an address conflict produces a warning about a duplicate address, not a self-assigned APIPA address.
-
-</details>
-
-### Item 10
-
-A user working from home shares a printer from a desktop PC. Other PCs on the home network cannot see the desktop or its printer. Windows Defender Firewall is on with default settings, and the desktop's network profile shows Public. What should the technician do?
-
-A. Change the network profile to Private
-
-B. Turn off Windows Defender Firewall
-
-C. Mark the connection as metered
-
-D. Configure a manual proxy server
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: A.** The Public profile hides the PC and turns off network discovery and sharing. A trusted home network should use Private, which allows them. (Objective 1.7)
-
-- **B** is wrong because disabling the firewall removes protection for every app, while the correct profile fixes the problem safely.
-- **C** is wrong because a metered connection limits data use; it does not affect sharing.
-- **D** is wrong because a proxy affects web traffic, not discovery of local PCs and printers.
-
-</details>
-
-### Item 11
-
-A Mac user deleted a folder of project documents last Tuesday and has since emptied the Trash. The Mac has an external drive connected that it backs up to automatically every hour. Which tool should the technician use to get the folder back?
-
-A. FileVault
-
-B. Disk Utility First Aid
-
-C. Spotlight
-
-D. Time Machine
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: D.** Time Machine keeps hourly, daily and weekly backups on the external drive, so the folder can be restored from a backup taken before Tuesday. (Objective 1.8)
-
-- **A** is wrong because FileVault encrypts the disk; it does not keep copies of deleted files.
-- **B** is wrong because First Aid repairs disk structure; it does not recover deleted files.
-- **C** is wrong because Spotlight searches existing files, and the folder no longer exists on the Mac.
-
-</details>
-
-### Item 12
+### Item 2
 
 A technician runs `ls -l` on a Linux server and sees this line:
 
@@ -850,62 +606,18 @@ D. 570
 
 </details>
 
-### Item 13
-
-An engineer's PC has Windows 10 Pro 32-bit and 4 GB of RAM. The installer for a new CAD application, which is only available as a 64-bit program, fails immediately. What is the cause?
-
-A. The PC needs a dedicated graphics card before any CAD software will install
-
-B. A 32-bit operating system cannot run 64-bit applications
-
-C. The app must be installed in C:\Program Files (x86)
-
-D. The installer must be burned to a DVD instead of run as an ISO
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: B.** A 32-bit OS cannot run 64-bit software. The fix is a clean install of 64-bit Windows, and more RAM, since a 32-bit OS cannot use more than 4 GB anyway. (Objective 1.10)
-
-- **A** is wrong because a missing graphics card may hurt performance or fail a requirement check, but it is not why a 64-bit installer stops at once on a 32-bit OS.
-- **C** is wrong because Program Files (x86) is where 32-bit apps go on a 64-bit OS, and that folder does not exist on 32-bit Windows.
-- **D** is wrong because a mounted ISO works the same as a disc.
-
-</details>
-
-### Item 14
-
-A new employee's account was created in the company's on-premises Active Directory and has synced to Microsoft Entra ID. The employee can sign in to the Microsoft 365 web portal, but there is no mailbox in Outlook and the Office apps show "unlicensed product". What should the technician do?
-
-A. Assign a Microsoft 365 license to the user in the admin center
-
-B. Reset the user's password in Active Directory
-
-C. Create a second cloud-only account for the user
-
-D. Turn on folder backup in OneDrive
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: A.** The identity has synced and sign-in works, but a mailbox and the Office apps come only with an assigned license. (Objective 1.11)
-
-- **B** is wrong because the user can already sign in, so the password is fine.
-- **C** is wrong because a second account splits the user's identity and still needs a license.
-- **D** is wrong because OneDrive folder backup is about syncing files, not mail or app licensing.
-
-</details>
+Want more? The [free timed CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus) has 25 questions across both cores, with your score split by domain.
 
 ## Score yourself
 
-| Item | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Answer | C | A | D | B | C | B, E | A | D | B | A | D | C | B | A |
-| Objective | 1.1 | 1.2 | 1.2 | 1.3 | 1.4 | 1.5 | 1.5 | 1.6 | 1.7 | 1.7 | 1.8 | 1.9 | 1.10 | 1.11 |
+| Item | 1 | 2 |
+|---|---|---|
+| Answer | B, E | C |
+| Objective | 1.5 | 1.9 |
 
-- **13 to 14:** strong. Keep the command tables fresh with short daily drills, since exact switches fade quickly.
-- **10 to 12:** list the objectives you missed. Switches, edition features and file system limits are the usual weak spots; reread [1.5 Command-line tools](#15-command-line-tools), [1.3 Windows editions](#13-windows-editions) and [1.1 OS types and file systems](#11-os-types-and-file-systems).
-- **9 or fewer:** spend two or three study sessions here. Write the edition table and the command tables from memory, then reread [1.4 Windows tools](#14-windows-tools), [1.7 Windows networking](#17-windows-networking) and [1.9 Linux](#19-linux) before redoing the items.
+- **2 of 2:** strong. Keep the command tables fresh with short daily drills, since exact switches fade quickly.
+- **1 of 2:** list the objectives you missed. Switches, edition features and file system limits are the usual weak spots; reread [1.5 Command-line tools](#15-command-line-tools), [1.3 Windows editions](#13-windows-editions) and [1.1 OS types and file systems](#11-os-types-and-file-systems).
+- **0 of 2:** spend two or three study sessions here. Write the edition table and the command tables from memory, then reread [1.4 Windows tools](#14-windows-tools), [1.7 Windows networking](#17-windows-networking) and [1.9 Linux](#19-linux) before redoing the items.
 
 ## Next step
 

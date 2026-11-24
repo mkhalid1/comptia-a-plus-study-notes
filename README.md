@@ -1,13 +1,13 @@
 # CompTIA A+ Core 1 and Core 2 Study Notes
 
-A free, complete study guide for CompTIA A+ V15: **Core 1 (220-1201)** and **Core 2 (220-1202)**. For each of the nine official domains you get a plain-English explanation of every objective, the tables you need cold (ports, Wi-Fi standards, cables and connectors, RAM and storage, Windows tools and commands, malware removal steps), how the questions look, a method, the traps that cost points, and original practice items with full explanations: 108 across the domains, plus a 27-item diagnostic and two performance-based practice tasks. Written for people heading into their first help desk or IT support job. Every exam fact comes from CompTIA's own pages and the official objectives documents, each one [cited](docs/sources.md).
+A free, complete study guide for CompTIA A+ V15: **Core 1 (220-1201)** and **Core 2 (220-1202)**. For each of the nine official domains you get a plain-English explanation of every objective, the tables you need cold (ports, Wi-Fi standards, cables and connectors, RAM and storage, Windows tools and commands, malware removal steps), how the questions look, a method, the traps that cost points, and original practice items with full explanations: 16 across the domains, plus a 9-item diagnostic and two performance-based practice tasks. Written for people heading into their first help desk or IT support job. Every exam fact comes from CompTIA's own pages and the official objectives documents, each one [cited](docs/sources.md).
 
 Want to see where you stand first? Take the [free timed CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus), or the in-repo [diagnostic](docs/diagnostic.md).
 
 ## Start here
 
 1. **Understand the two exams.** Read [how CompTIA A+ works](docs/a-plus-overview.md): you need both cores, in any order, from the same version.
-2. **Find your weak domains.** Take the [diagnostic](docs/diagnostic.md) for the core you are sitting next: 15 items for Core 1, 12 for Core 2.
+2. **Find your weak domains.** Take the [diagnostic](docs/diagnostic.md) for the core you are sitting next: 5 items for Core 1, 4 for Core 2.
 3. **Fix the weakest heavy domain first,** then follow the [7-day plan](docs/study-plans.md#7-day-plan) for that core, or the [2-day plan](docs/study-plans.md#2-day-plan) if your exam is close.
 
 ## Quick facts
@@ -29,15 +29,15 @@ Both: you must pass both exams to earn A+, in any order, and "Core 1 and Core 2 
 
 | Exam | Domain | Weight | Items | Guide |
 |---|---|---|---|---|
-| Core 1 | 1. Mobile Devices | 13% | 10 | [Mobile Devices](docs/core-1/1-mobile-devices.md) |
-| Core 1 | 2. Networking | 23% | 12 | [Networking](docs/core-1/2-networking.md) |
-| Core 1 | 3. Hardware | 25% | 12 | [Hardware](docs/core-1/3-hardware.md) |
-| Core 1 | 4. Virtualization and Cloud Computing | 11% | 10 | [Virtualization and Cloud](docs/core-1/4-virtualization-and-cloud-computing.md) |
-| Core 1 | 5. Hardware and Network Troubleshooting | 28% | 14 | [Troubleshooting](docs/core-1/5-hardware-and-network-troubleshooting.md) |
-| Core 2 | 1. Operating Systems | 28% | 14 | [Operating Systems](docs/core-2/1-operating-systems.md) |
-| Core 2 | 2. Security | 28% | 14 | [Security](docs/core-2/2-security.md) |
-| Core 2 | 3. Software Troubleshooting | 23% | 12 | [Software Troubleshooting](docs/core-2/3-software-troubleshooting.md) |
-| Core 2 | 4. Operational Procedures | 21% | 10 | [Operational Procedures](docs/core-2/4-operational-procedures.md) |
+| Core 1 | 1. Mobile Devices | 13% | 1 | [Mobile Devices](docs/core-1/1-mobile-devices.md) |
+| Core 1 | 2. Networking | 23% | 2 | [Networking](docs/core-1/2-networking.md) |
+| Core 1 | 3. Hardware | 25% | 2 | [Hardware](docs/core-1/3-hardware.md) |
+| Core 1 | 4. Virtualization and Cloud Computing | 11% | 1 | [Virtualization and Cloud](docs/core-1/4-virtualization-and-cloud-computing.md) |
+| Core 1 | 5. Hardware and Network Troubleshooting | 28% | 2 | [Troubleshooting](docs/core-1/5-hardware-and-network-troubleshooting.md) |
+| Core 2 | 1. Operating Systems | 28% | 2 | [Operating Systems](docs/core-2/1-operating-systems.md) |
+| Core 2 | 2. Security | 28% | 2 | [Security](docs/core-2/2-security.md) |
+| Core 2 | 3. Software Troubleshooting | 23% | 2 | [Software Troubleshooting](docs/core-2/3-software-troubleshooting.md) |
+| Core 2 | 4. Operational Procedures | 21% | 2 | [Operational Procedures](docs/core-2/4-operational-procedures.md) |
 
 Weights are CompTIA's, per exam. Every domain guide has the same parts: what the domain measures (objective by objective), key concepts explained, how the questions look, a method, the traps that cost points, timing, original practice items with explanations, and a score table.
 

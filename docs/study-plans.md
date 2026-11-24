@@ -15,10 +15,10 @@ Use it once for Core 1 and once for Core 2. Expect 1.5 to 3 hours a day.
 | Day | Focus | What to do |
 |---|---|---|
 | 1 | Baseline | Read the [Core 1 overview](core-1/README.md). Take the [diagnostic](diagnostic.md) under time. Note your two weakest Core 1 domains, weighted by how much each is worth. |
-| 2 | Domain 3 (25%) | Read [Hardware](core-1/3-hardware.md) in full. Do all 12 items. Write RAID levels, RAM types and connector names from memory. |
-| 3 | Domain 2 (23%) | Read [Networking](core-1/2-networking.md). Do all 12 items. Write the port table from memory twice, once in the morning and once at night. |
-| 4 | Domain 5 (28%) | Read [Hardware and Network Troubleshooting](core-1/5-hardware-and-network-troubleshooting.md). Do all 14 items. Build a one-page symptom and likely cause table. |
-| 5 | Domains 1 and 4 (13% and 11%), first timed run | Read [Mobile Devices](core-1/1-mobile-devices.md) and [Virtualization and Cloud Computing](core-1/4-virtualization-and-cloud-computing.md) and do both item sets. Then take a full timed practice test, such as the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus). Score it by domain. |
+| 2 | Domain 3 (25%) | Read [Hardware](core-1/3-hardware.md) in full. Do both items. Write RAID levels, RAM types and connector names from memory. |
+| 3 | Domain 2 (23%) | Read [Networking](core-1/2-networking.md). Do both items. Write the port table from memory twice, once in the morning and once at night. |
+| 4 | Domain 5 (28%) | Read [Hardware and Network Troubleshooting](core-1/5-hardware-and-network-troubleshooting.md). Do both items. Build a one-page symptom and likely cause table. |
+| 5 | Domains 1 and 4 (13% and 11%), first timed run | Read [Mobile Devices](core-1/1-mobile-devices.md) and [Virtualization and Cloud Computing](core-1/4-virtualization-and-cloud-computing.md) and do the practice item in each. Then take a full timed practice test, such as the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus). Score it by domain. |
 | 6 | Fix the weakest heavy domain | Go back to the weakest domain from day 5. Reread its "Traps that cost points" section and redo its items without the answers. Do Practice task 1 on the [PBQ page](performance-based-questions.md). |
 | 7 | Second timed run and rest | Take a second timed test in the morning. Compare domain scores with day 5. Read the [exam-day checklist](exam-day-checklist.md). Stop studying by early evening. |
 
@@ -27,10 +27,10 @@ Use it once for Core 1 and once for Core 2. Expect 1.5 to 3 hours a day.
 | Day | Focus | What to do |
 |---|---|---|
 | 1 | Baseline | Read the [Core 2 overview](core-2/README.md). Take the [diagnostic](diagnostic.md) under time. Note your two weakest Core 2 domains, weighted by how much each is worth. |
-| 2 | Domain 1 (28%) | Read [Operating Systems](core-2/1-operating-systems.md) in full. Do all 14 items. Open each Windows tool and run each command-line tool in the objectives once. |
-| 3 | Domain 2 (28%) | Read [Security](core-2/2-security.md). Do all 14 items. Write the malware removal steps and the wireless security protocols from memory. |
-| 4 | Domain 3 (23%) | Read [Software Troubleshooting](core-2/3-software-troubleshooting.md). Do all 12 items. Build a symptom and fix table for Windows, mobile and security issues. |
-| 5 | Domain 4 (21%), first timed run | Read [Operational Procedures](core-2/4-operational-procedures.md) and do its 10 items. Then take a full timed practice test, such as the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus). Score it by domain. |
+| 2 | Domain 1 (28%) | Read [Operating Systems](core-2/1-operating-systems.md) in full. Do both items. Open each Windows tool and run each command-line tool in the objectives once. |
+| 3 | Domain 2 (28%) | Read [Security](core-2/2-security.md). Do both items. Write the malware removal steps and the wireless security protocols from memory. |
+| 4 | Domain 3 (23%) | Read [Software Troubleshooting](core-2/3-software-troubleshooting.md). Do both items. Build a symptom and fix table for Windows, mobile and security issues. |
+| 5 | Domain 4 (21%), first timed run | Read [Operational Procedures](core-2/4-operational-procedures.md) and do its 2 items. Then take a full timed practice test, such as the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus). Score it by domain. |
 | 6 | Fix the weakest heavy domain | Go back to the weakest domain from day 5. Reread its "Traps that cost points" section and redo its items without the answers. Do Practice task 2 on the [PBQ page](performance-based-questions.md). |
 | 7 | Second timed run and rest | Take a second timed test in the morning. Compare domain scores with day 5. Read the [exam-day checklist](exam-day-checklist.md). Stop studying by early evening. |
 
@@ -52,7 +52,7 @@ For when one exam is already booked and close. Use the domain pages for the core
 
 | Block | Time | What to do |
 |---|---|---|
-| 1 | 25 min | Take the [diagnostic](diagnostic.md) for your core. |
+| 1 | 10 min | Take the [diagnostic](diagnostic.md) for your core. |
 | 2 | 40 min | Read "Key concepts" in the heaviest domain: [Core 1, Domain 5](core-1/5-hardware-and-network-troubleshooting.md#key-concepts-explained), or [Core 2, Domain 1](core-2/1-operating-systems.md#key-concepts-explained) and [Core 2, Domain 2](core-2/2-security.md#key-concepts-explained). |
 | 3 | 45 min | Read "Traps that cost points" on every domain page for your core, then do the practice items for your two weakest domains. Read every explanation. |
 | 4 | 60 to 90 min | Take a full timed practice test, such as the [free one on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus). |

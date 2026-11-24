@@ -218,101 +218,9 @@ Across the whole exam, plan on about a minute per multiple-choice item, and long
 
 ## Practice items
 
-These 14 items are original, written for these notes. They are not taken from CompTIA's exam or any prep provider.
+These 2 items are original, written for these notes. They are not taken from CompTIA's exam or any prep provider.
 
 ### Item 1
-
-A desktop in a shared office is unplugged at the wall every night. Each morning it shows a date years in the past, and several websites display certificate warnings until the user corrects the clock. What is the MOST likely cause?
-
-A. A failing power supply
-
-B. A dead CMOS battery
-
-C. Faulty RAM
-
-D. An overheating CPU
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: B.** The CMOS battery keeps the real-time clock running when the PC has no power. When it dies, the clock resets every time the PC is unplugged, and a wrong date breaks certificate checks. (Objective 5.1)
-
-- **A** is wrong because a failing PSU causes shutdowns or no power, not a clock that resets.
-- **C** is wrong because faulty RAM causes crashes and POST errors, not date resets.
-- **D** is wrong because overheating causes shutdowns under load, not wrong dates after being unplugged.
-
-</details>
-
-### Item 2
-
-A video editor's workstation turns off without warning, usually 20 minutes into rendering a project. It runs all day without problems for email and browsing. The fans are loud and the front vents are clogged with dust. What is the MOST likely cause?
-
-A. A failing hard drive
-
-B. Malware
-
-C. An incorrect display driver
-
-D. Overheating from blocked airflow
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: D.** Shutdowns under sustained heavy load, loud fans and clogged vents all point to overheating. The system cuts power to protect the CPU. Clean the dust and check the cooler. (Objective 5.1)
-
-- **A** is wrong because a failing drive causes slowness, noises or data errors, not shutdowns linked to load.
-- **B** is wrong because malware would not explain the timing with rendering, the loud fans or the dust.
-- **C** is wrong because a bad display driver typically causes display glitches or a crash screen, not a clean power-off under load.
-
-</details>
-
-### Item 3
-
-A user calls to say there was a loud pop from the PC under their desk, followed by a burning smell. The PC is still running. What should the technician tell the user to do FIRST?
-
-A. Shut the PC down and unplug it from the wall
-
-B. Open the case to look for the burnt part while it runs
-
-C. Run the manufacturer's hardware diagnostics
-
-D. Update the BIOS to the latest version
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: A.** A burning smell is a safety issue. Remove power first, then diagnose. The PSU is a common culprit. (Objective 5.1)
-
-- **B** is wrong because opening a running PC that smells of burning risks shock and fire.
-- **C** is wrong because diagnostics keep the faulty part powered and can make the damage worse.
-- **D** is wrong because a firmware update does nothing for a burnt component, and power loss during an update can damage the board.
-
-</details>
-
-### Item 4
-
-A laptop's hard drive has started making a clicking sound, and the PC now shows a S.M.A.R.T. warning at boot. The user has project files on it that are not backed up anywhere. What should the technician do FIRST?
-
-A. Defragment the drive to improve performance
-
-B. Reinstall Windows to clear the warning
-
-C. Copy the user's files to another drive or backup location
-
-D. Run a full surface scan to confirm the drive is failing
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: C.** Clicking and a S.M.A.R.T. warning both say the drive may fail soon. Save the data while the drive still works, then replace it. (Objective 5.2)
-
-- **A** is wrong because defragmentation puts heavy load on a failing drive and can finish it off.
-- **B** is wrong because reinstalling wipes the user's files and does not fix failing hardware.
-- **D** is wrong because a long scan also stresses the drive; the warning is already enough reason to back up and replace.
-
-</details>
-
-### Item 5
 
 A file server in a back office is beeping. The technician opens the RAID management tool and sees the following.
 
@@ -347,155 +255,7 @@ D. Silence the alarm and schedule a check in a few months
 
 </details>
 
-### Item 6
-
-A conference room projector shows a clear, bright image for about 30 minutes and then switches itself off. A warning light comes on. Stacks of paper are piled against its side vents, and the air filter is gray with dust. What is the MOST likely cause?
-
-A. The wrong input source is selected
-
-B. The projector is overheating
-
-C. The bulb has burnt out
-
-D. The laptop resolution is not supported
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: B.** A good image that shuts off after a while, with blocked vents and a dusty filter, points to overheating and thermal protection. Clear the vents and clean or replace the filter. (Objective 5.3)
-
-- **A** is wrong because a wrong input would show no picture from the start.
-- **C** is wrong because a burnt-out bulb gives no image at all, not 30 minutes of a bright one.
-- **D** is wrong because an unsupported resolution causes a "no signal" message or a distorted image, not a timed shutdown.
-
-</details>
-
-### Item 7
-
-A user connects a laptop to a new desk monitor with an HDMI cable. The laptop's own screen works and it is set to duplicate displays. The monitor is powered on but shows "No signal". The HDMI cable works on another monitor. What is the MOST likely cause?
-
-A. Dead pixels on the monitor
-
-B. Display burn-in
-
-C. The monitor is set to a different input source
-
-D. A failed backlight in the monitor
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: C.** The monitor is on, the cable is good and the laptop is sending video, so the monitor is most likely looking at another input, such as DisplayPort. Press the source button. (Objective 5.3)
-
-- **A** is wrong because dead pixels are individual dots that do not change, not a "No signal" message.
-- **B** is wrong because burn-in is a ghost of an old image, and this is a new monitor with no image at all.
-- **D** is wrong because the monitor can display its own "No signal" message, so the backlight works.
-
-</details>
-
-### Item 8
-
-A user brings in a company phone. One edge of the screen has lifted away from the frame, and the phone gets hot while charging. What should the technician do?
-
-A. Tell the user to charge it only in a cool room
-
-B. Press the screen back into place and fit a tighter case
-
-C. Update the phone's operating system to improve battery management
-
-D. Stop charging it, power it off if safe, and arrange a battery replacement and proper disposal
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: D.** A lifting screen and heat while charging are classic signs of a swollen lithium-ion battery, which can catch fire. Stop charging and using it, and replace the battery safely. (Objective 5.4)
-
-- **A** is wrong because a cooler room does not make a swollen battery safe.
-- **B** is wrong because pressing on a swollen battery can rupture it.
-- **C** is wrong because software cannot fix a physically swollen battery.
-
-</details>
-
-### Item 9
-
-A tablet charges only when the cable is held at a certain angle. A second, known-good cable and charger behave the same way. The tablet has been carried loose in a coat pocket. What should the technician check FIRST?
-
-A. Inspect the charging port for lint or debris and clean it with a non-conductive tool
-
-B. Replace the battery
-
-C. Restore the tablet to factory settings
-
-D. Run the touch calibration tool
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: A.** Two cables behave the same, so the problem is in the device's port. Pocket lint packed into the port is common and quick to check before any repair. (Objective 5.4)
-
-- **B** is wrong because a worn battery holds less charge; it does not make charging depend on cable angle.
-- **C** is wrong because a factory reset cannot fix a physical connection problem and wipes data.
-- **D** is wrong because touch calibration has nothing to do with charging.
-
-</details>
-
-### Item 10
-
-Staff using the office VoIP phones report choppy, robotic-sounding calls during busy parts of the day. A technician runs a long `ping` to the phone system and sees that the average response time is acceptable, but individual replies swing between very low and very high values. No packets are lost. Which issue is this, and what is the BEST fix?
-
-A. Port flapping; replace the patch cables
-
-B. Authentication failures; reset the phone passwords
-
-C. Limited connectivity; renew the DHCP leases
-
-D. Jitter; configure QoS to prioritize voice traffic
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: D.** Wide variation in delay between packets is jitter, and real-time voice is very sensitive to it. QoS gives voice priority over other traffic during busy times. (Objective 5.5)
-
-- **A** is wrong because port flapping drops the link entirely; the ping shows replies with no loss.
-- **B** is wrong because the phones are connected and making calls, so they are authenticating.
-- **C** is wrong because limited connectivity means no valid IP address, and the phone system answers the ping.
-
-</details>
-
-### Item 11
-
-A user says their network connection keeps dropping every few seconds. The technician checks the switch log for the port the user's desk is patched into.
-
-```
-09:14:02 Interface Gi1/0/12, changed state to down
-09:14:05 Interface Gi1/0/12, changed state to up
-09:14:31 Interface Gi1/0/12, changed state to down
-09:14:33 Interface Gi1/0/12, changed state to up
-09:15:02 Interface Gi1/0/12, changed state to down
-```
-
-What is the BEST next step?
-
-A. Increase the size of the DHCP scope
-
-B. Replace the patch cable for that port and test the PC's network card
-
-C. Change the wireless channel on the nearest access point
-
-D. Point the PC at a different DNS server
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: B.** The port is flapping, going up and down repeatedly at the physical link level. A damaged cable or failing NIC is the most likely cause, and swapping the cable is the quickest test. (Objective 5.5)
-
-- **A** is wrong because DHCP problems affect addressing, not the physical link state on the switch.
-- **C** is wrong because the user is on a wired switch port, so Wi-Fi channels are not involved.
-- **D** is wrong because DNS resolves names and cannot make a switch port go down.
-
-</details>
-
-### Item 12
+### Item 2
 
 Laptops in a break room lose their Wi-Fi connection whenever the microwave is running. The access point is mounted on the wall right next to the microwave and broadcasts only on 2.4 GHz. Which two actions would BEST fix this? Choose two.
 
@@ -520,62 +280,18 @@ E. Move the access point away from the microwave
 
 </details>
 
-### Item 13
-
-Every page from an office laser printer has a thin black vertical line in exactly the same place. Using a fresh ream of paper does not help, and the printer's own test page shows the same line. What is the MOST likely cause?
-
-A. A wrong printer driver on the user's PC
-
-B. Low toner
-
-C. A scratched or dirty imaging drum
-
-D. The paper tray is not recognized
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: C.** A line in the same spot on every page, including the printer's internal test page, points to the imaging drum (often part of the toner cartridge). Replace the cartridge or drum unit. (Objective 5.6)
-
-- **A** is wrong because the printer's own test page does not use the PC's driver, and a bad driver usually causes garbled output.
-- **B** is wrong because low toner causes faded prints, not a sharp black line.
-- **D** is wrong because a tray problem stops paper feeding or gives a tray error; it does not draw lines.
-
-</details>
-
-### Item 14
-
-Several users' jobs are stuck in a Windows print queue with the status "Printing". The printer is online, and a test page printed from the printer's own control panel comes out fine. The stuck jobs cannot be deleted from the queue. What should the technician do?
-
-A. Replace the printer's fuser
-
-B. Stop the Print Spooler service, clear the stuck jobs, then start the service again
-
-C. Replace the toner cartridge
-
-D. Change the default page orientation to landscape
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: B.** The printer works on its own, so the problem is the queue on the Windows side. Restarting the Print Spooler service, after clearing the files in `C:\Windows\System32\spool\PRINTERS`, removes the frozen jobs. (Objective 5.6)
-
-- **A** is wrong because a fuser problem causes smearing on printed pages, and the test page prints fine.
-- **C** is wrong because toner affects print quality, not a frozen queue.
-- **D** is wrong because orientation changes how pages are laid out; it does not release stuck jobs.
-
-</details>
+Want more? The [free timed CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus) has 25 questions across both cores, with your score split by domain.
 
 ## Score yourself
 
-| Item | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Answer | B | D | A | C | A | B | C | D | A | D | B | C, E | C | B |
-| Objective | 5.1 | 5.1 | 5.1 | 5.2 | 5.2 | 5.3 | 5.3 | 5.4 | 5.4 | 5.5 | 5.5 | 5.5 | 5.6 | 5.6 |
+| Item | 1 | 2 |
+|---|---|---|
+| Answer | A | C, E |
+| Objective | 5.2 | 5.5 |
 
-- **13 to 14:** strong. This is the heaviest Core 1 domain, so keep it warm with mixed symptom drills from every objective.
-- **10 to 12:** list the objectives you missed. RAID status, ping output and printer parts are the usual weak spots; reread those tables in [Key concepts](#key-concepts-explained).
-- **9 or fewer:** spend two study sessions here. Write the six methodology steps and the RAID table from memory, then reread [5.2 Drives and RAID](#52-drives-and-raid), [5.5 Network issues](#55-network-issues) and [5.6 Printers](#56-printers) before redoing the items.
+- **2 of 2:** strong. This is the heaviest Core 1 domain, so keep it warm with mixed symptom drills from every objective.
+- **1 of 2:** list the objectives you missed. RAID status, ping output and printer parts are the usual weak spots; reread those tables in [Key concepts](#key-concepts-explained).
+- **0 of 2:** spend two study sessions here. Write the six methodology steps and the RAID table from memory, then reread [5.2 Drives and RAID](#52-drives-and-raid), [5.5 Network issues](#55-network-issues) and [5.6 Printers](#56-printers) before redoing the items.
 
 ## Next step
 

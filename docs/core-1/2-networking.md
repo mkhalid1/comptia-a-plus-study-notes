@@ -304,7 +304,7 @@ The exam is one 90-minute block with up to 90 questions, so plan for about a min
 
 ## Practice items
 
-These 12 items are original, written for these notes. They are not taken from CompTIA's exam or any prep provider.
+These 2 items are original, written for these notes. They are not taken from CompTIA's exam or any prep provider.
 
 ### Item 1
 
@@ -330,211 +330,6 @@ D. UDP 69
 </details>
 
 ### Item 2
-
-A new laptop joins the office network. It requests an IP address and then looks up the address of the intranet site. Which two protocols does it use that normally run over UDP for these tasks? (Choose two.)
-
-A. SMTP
-
-B. DHCP
-
-C. SMB
-
-D. DNS
-
-E. SSH
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: B and D.** DHCP uses UDP 67 and 68 to hand out addresses, and normal DNS queries use UDP 53. (Objective 2.1)
-
-- **A** is wrong because SMTP sends email over TCP 25.
-- **C** is wrong because SMB file sharing uses TCP 445.
-- **E** is wrong because SSH uses TCP 22 for remote access.
-
-</details>
-
-### Item 3
-
-A small office in a busy apartment building has slow and unreliable 2.4 GHz Wi-Fi. A Wi-Fi analyzer shows many neighboring networks on channels 1, 6 and 11, and the office access point is set to channel 3 with a 40 MHz width. What should the technician change?
-
-A. Move to channel 1, 6 or 11, whichever is least busy, and use a 20 MHz width
-
-B. Move to channel 4 to sit between the neighbors
-
-C. Increase the channel width to 80 MHz to get more speed
-
-D. Turn off WPA2 to reduce overhead
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: A.** In 2.4 GHz only channels 1, 6 and 11 do not overlap. Sharing one of them with neighbors is better than overlapping two at once, and a 20 MHz width avoids spreading across extra channels. (Objective 2.2)
-
-- **B** is wrong because channel 4 overlaps both channel 1 and channel 6, making interference worse.
-- **C** is wrong because 80 MHz is not used in 2.4 GHz, and wider channels overlap more neighbors.
-- **D** is wrong because removing encryption is insecure and does not fix interference.
-
-</details>
-
-### Item 4
-
-A user's new laptop and the office access point both support Wi-Fi 6E. The user wants a connection on a band that older Wi-Fi 6 and Wi-Fi 5 devices in the office cannot use, so it stays uncrowded. Which band should she connect on?
-
-A. 2.4 GHz
-
-B. 5 GHz
-
-C. 900 MHz
-
-D. 6 GHz
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: D.** Wi-Fi 6E adds the 6 GHz band. Wi-Fi 6 and Wi-Fi 5 devices cannot use it, so it is less crowded. (Objective 2.2)
-
-- **A** is wrong because 2.4 GHz is used by nearly every Wi-Fi device and is the most crowded band.
-- **B** is wrong because Wi-Fi 5 and Wi-Fi 6 devices also use 5 GHz.
-- **C** is wrong because 900 MHz is not a standard Wi-Fi band used by these devices.
-
-</details>
-
-### Item 5
-
-A network administrator wants the routers, switches and firewalls in the office to send their event messages to one central server so problems can be reviewed in one place. Which server role is needed?
-
-A. NTP server
-
-B. Syslog server
-
-C. Proxy server
-
-D. DHCP server
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: B.** A syslog server collects log messages from many network devices and servers in one location. (Objective 2.3)
-
-- **A** is wrong because NTP keeps device clocks in sync. That makes logs easier to compare but does not collect them.
-- **C** is wrong because a proxy makes web requests on behalf of clients.
-- **D** is wrong because DHCP hands out IP addresses.
-
-</details>
-
-### Item 6
-
-A company has moved its email to a new provider, but incoming email is still arriving at the old provider. Here are the domain's DNS records:
-
-```
-example.com.        A       203.0.113.20
-www.example.com.    CNAME   example.com.
-example.com.        MX 10   mail.oldprovider.example.
-example.com.        TXT     "v=spf1 include:oldprovider.example -all"
-```
-
-Which record must be changed so incoming mail reaches the new provider?
-
-A. The A record
-
-B. The CNAME record
-
-C. The MX record
-
-D. An AAAA record must be added
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: C.** Sending mail servers look up the MX record to find where to deliver mail for the domain. It still points to the old provider. (Objective 2.4)
-
-- **A** is wrong because the A record maps the name to the website's IPv4 address; mail delivery follows MX.
-- **B** is wrong because the CNAME makes www an alias for the website and does not affect mail.
-- **D** is wrong because an AAAA record maps a name to an IPv6 address and does not route mail. (The SPF TXT record should also be updated so the new provider may send mail, but that controls outgoing mail checks, not incoming delivery.)
-
-</details>
-
-### Item 7
-
-Users report that the office printer works one week and not the next. The technician finds the printer gets its address from DHCP, and the address changes from time to time. The office wants to keep managing all addresses from the DHCP server. What should the technician configure?
-
-A. A DHCP reservation for the printer's MAC address
-
-B. A shorter DHCP lease time
-
-C. A DHCP exclusion covering the whole scope
-
-D. A new VLAN for the printer
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: A.** A reservation makes the DHCP server always give the printer the same address, matched by its MAC address, while still managing it centrally. (Objective 2.4)
-
-- **B** is wrong because shorter leases make address changes more likely, not less.
-- **C** is wrong because excluding the whole scope would stop the server handing out any addresses at all.
-- **D** is wrong because a separate VLAN does not give the printer a fixed address, and clients would need routing to reach it.
-
-</details>
-
-### Item 8
-
-A technician must mount a new IP security camera on a warehouse ceiling. There is an Ethernet cable run to the spot but no power outlet nearby. The existing switch does not support PoE, and replacing it is not in the budget. What should the technician install?
-
-A. A patch panel
-
-B. An unmanaged switch
-
-C. A cable modem
-
-D. A PoE injector
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: D.** A PoE injector sits between the non-PoE switch and the camera and adds power to that one Ethernet cable. (Objective 2.5)
-
-- **A** is wrong because a patch panel is a passive termination point and supplies no power.
-- **B** is wrong because an unmanaged switch without PoE adds ports, not power.
-- **C** is wrong because a cable modem connects to a cable provider's network and has nothing to do with powering devices.
-
-</details>
-
-### Item 9
-
-A user cannot reach any websites or shared drives. The technician runs `ipconfig` on the user's desktop:
-
-```
-Ethernet adapter Ethernet:
-   Connection-specific DNS Suffix  . :
-   IPv4 Address. . . . . . . . . . . : 169.254.38.112
-   Subnet Mask . . . . . . . . . . . : 255.255.0.0
-   Default Gateway . . . . . . . . . :
-```
-
-What should the technician do FIRST?
-
-A. Replace the network card
-
-B. Check the cable and link light, then run `ipconfig /renew`
-
-C. Change the DNS server to a public resolver
-
-D. Give the desktop a static public IP address
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: B.** A 169.254 address is APIPA: the desktop could not reach a DHCP server. Start with the simplest physical check, then ask DHCP for an address again. (Objective 2.6)
-
-- **A** is wrong because the NIC is working well enough to assign itself an address; replacing hardware is not the first step.
-- **C** is wrong because DNS cannot help when the desktop has no valid address or gateway.
-- **D** is wrong because public addresses come from the ISP, and a made-up static address would not fix the DHCP problem.
-
-</details>
-
-### Item 10
 
 A desktop is configured with the settings below. It can print to the printer at 192.168.10.20 but cannot reach the internet. Other desktops on the same switch work fine.
 
@@ -566,62 +361,18 @@ D. The printer is using the same IP address
 
 </details>
 
-### Item 11
-
-A video production company wants its editing servers to reach a large shared pool of disk storage over a dedicated high-speed network that is separate from the office LAN. What type of network is this?
-
-A. SAN
-
-B. PAN
-
-C. MAN
-
-D. WLAN
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: A.** A storage area network connects servers to shared block storage over its own dedicated network. (Objective 2.7)
-
-- **B** is wrong because a PAN links one person's devices, such as a phone and earbuds.
-- **C** is wrong because a MAN covers a city or campus.
-- **D** is wrong because a WLAN is a wireless local network for clients.
-
-</details>
-
-### Item 12
-
-A technician needs to find which of 48 unlabeled ports on a patch panel connects to the wall jack in Room 214. Which tool should the technician use?
-
-A. Crimper
-
-B. Toner probe
-
-C. Loopback plug
-
-D. Network tap
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: B.** Connect the tone generator at the wall jack in Room 214, then run the probe along the patch panel until it picks up the tone. (Objective 2.8)
-
-- **A** is wrong because a crimper attaches connectors to cables; it cannot trace them.
-- **C** is wrong because a loopback plug tests whether a single port works.
-- **D** is wrong because a network tap copies traffic for monitoring.
-
-</details>
+Want more? The [free timed CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus) has 25 questions across both cores, with your score split by domain.
 
 ## Score yourself
 
-| Item | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Answer | C | B, D | A | D | B | C | A | D | B | C | A | B |
-| Objective | 2.1 | 2.1 | 2.2 | 2.2 | 2.3 | 2.4 | 2.4 | 2.5 | 2.6 | 2.6 | 2.7 | 2.8 |
+| Item | 1 | 2 |
+|---|---|---|
+| Answer | C | C |
+| Objective | 2.1 | 2.6 |
 
-- **11 to 12:** strong. Keep the port table fresh by writing it from memory once a week, because this domain carries close to a quarter of Core 1.
-- **9 to 10:** list the objectives you missed. Port mix-ups mean reread [2.1 Ports and protocols](#21-ports-and-protocols); addressing misses mean work through [2.6 SOHO network configuration and IP addressing](#26-soho-network-configuration-and-ip-addressing) again.
-- **8 or fewer:** spend two study sessions here. Write the port table, the 802.11 table and the private address ranges from memory until they are perfect, then reread [2.4 DNS, DHCP, VLAN and VPN](#24-dns-dhcp-vlan-and-vpn) before redoing the items.
+- **2 of 2:** strong. Keep the port table fresh by writing it from memory once a week, because this domain carries close to a quarter of Core 1.
+- **1 of 2:** list the objectives you missed. Port mix-ups mean reread [2.1 Ports and protocols](#21-ports-and-protocols); addressing misses mean work through [2.6 SOHO network configuration and IP addressing](#26-soho-network-configuration-and-ip-addressing) again.
+- **0 of 2:** spend two study sessions here. Write the port table, the 802.11 table and the private address ranges from memory until they are perfect, then reread [2.4 DNS, DHCP, VLAN and VPN](#24-dns-dhcp-vlan-and-vpn) before redoing the items.
 
 ## Next step
 

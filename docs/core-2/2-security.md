@@ -458,7 +458,7 @@ Each Core 2 exam is one 90-minute block of up to 90 questions, so aim for about 
 
 ## Practice items
 
-These 14 items are original, written for these notes. They are not taken from CompTIA's exam or any prep provider.
+These 2 items are original, written for these notes. They are not taken from CompTIA's exam or any prep provider.
 
 ### Item 1
 
@@ -484,29 +484,6 @@ D. Explain to the user how to avoid suspicious downloads
 </details>
 
 ### Item 2
-
-A dentist's office is setting up a new wireless router. All of its laptops and tablets were bought this year. The router offers these security options. Which should the technician choose?
-
-A. WPA2-Personal with TKIP
-
-B. WPA2-Personal with TKIP and AES (mixed)
-
-C. WPA2-Personal with AES
-
-D. WPA3-Personal
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: D.** All devices are new enough for WPA3, and WPA3-Personal uses SAE, which resists offline password guessing. It is the strongest option listed. (Objective 2.3)
-
-- **A** is wrong because TKIP is deprecated and weak.
-- **B** is wrong because mixed mode still allows TKIP, keeping the weak option alive.
-- **C** is wrong because WPA2 with AES is acceptable for older devices, but it is weaker than WPA3 and nothing here needs the older standard.
-
-</details>
-
-### Item 3
 
 A user in the Accounting group says he can open files in a shared folder from his laptop but cannot save changes. The technician checks the folder's permissions.
 
@@ -540,278 +517,18 @@ D. Read; give the Accounting group Full control in NTFS
 
 </details>
 
-### Item 4
-
-A full antivirus scan inside Windows reports the PC is clean, yet the machine keeps sending traffic to an unknown server and a system process cannot be seen in Task Manager. A scan run from bootable media finds hidden malicious files in the system folder. Which type of malware is MOST likely present?
-
-A. Rootkit
-
-B. Adware
-
-C. Keylogger
-
-D. Potentially unwanted program
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: A.** A rootkit hides itself from the running OS and its tools, which is why only a scan from outside Windows found it. Reimaging is often the safest fix. (Objective 2.4)
-
-- **B** is wrong because adware shows ads and does not usually hide from scanners.
-- **C** is wrong because a keylogger records keystrokes; hiding from the OS is not its defining trait.
-- **D** is wrong because a PUP is visible, bundled software that the user agreed to install.
-
-</details>
-
-### Item 5
-
-The accounts team receives an invoice email from a long-standing supplier, sent from the supplier's real email account, asking that future payments go to a new bank account. The supplier later says its mailbox was hacked. What kind of attack is this?
-
-A. Whaling
-
-B. Business email compromise
-
-C. Smishing
-
-D. Evil twin
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: B.** Business email compromise uses a taken-over or faked business mailbox to redirect payments, and "new bank details" is its classic move. (Objective 2.5)
-
-- **A** is wrong because whaling targets senior executives; this targets an accounts team with an invoice.
-- **C** is wrong because smishing uses text messages, not email.
-- **D** is wrong because an evil twin is a rogue Wi-Fi access point.
-
-</details>
-
-### Item 6
-
-Staff at a data center report that visitors sometimes slip in behind employees when the badge door opens. Management wants a physical control that makes this impossible. Which should be installed?
-
-A. Video surveillance at the door
-
-B. Bollards outside the entrance
-
-C. A motion sensor in the lobby
-
-D. An access control vestibule
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: D.** An access control vestibule has two doors and lets only one person through at a time, which is designed to stop tailgating. (Objective 2.1)
-
-- **A** is wrong because cameras record tailgating but do not prevent it.
-- **B** is wrong because bollards stop vehicles, not people.
-- **C** is wrong because a motion sensor detects movement; it does not control who passes the door.
-
-</details>
-
-### Item 7
-
-A technician is hardening Windows desktops in a reception area used by temporary staff. Choose two settings that reduce the risk from those machines.
-
-A. Enable the Guest account so temps do not need their own logins
-
-B. Set account expiration dates on temporary staff accounts
-
-C. Turn off User Account Control to reduce support calls
-
-D. Enable AutoRun so USB drives open faster
-
-E. Configure an account lockout after several failed log-in attempts
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: B and E.** Expiration dates switch off temp accounts automatically when contracts end, and a failed-attempts lockout stops people guessing passwords at an unattended desk. (Objective 2.7)
-
-- **A** is wrong because the Guest account should be disabled; it gives untracked shared access.
-- **C** is wrong because UAC blocks silent system changes, and disabling it weakens the machine.
-- **D** is wrong because AutoRun should be disabled so removable media cannot launch code automatically.
-
-</details>
-
-### Item 8
-
-A sales rep reports that her personal phone, which she uses for company email under the BYOD policy, was stolen at an airport. The company manages work data on personal phones with MDM. What should the technician do to protect company data while respecting that the phone is personal?
-
-A. Use a locator app to show the phone's location to airport security
-
-B. Restore her last remote backup to a new company phone
-
-C. Use MDM to remotely wipe the managed work profile and its data
-
-D. Change her Wi-Fi password at the office
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: C.** A remote wipe through MDM removes company data from the lost device. On BYOD, wiping the managed work profile protects company data without erasing the owner's personal content. (Objective 2.8)
-
-- **A** is wrong because finding the phone does not protect the data if a thief can unlock it.
-- **B** is wrong because restoring data to another device does nothing about the data on the stolen one.
-- **D** is wrong because the office Wi-Fi password is not where the risk is; the email data on the phone is.
-
-</details>
-
-### Item 9
-
-A school is moving 30 old desktops with hard disk drives to the library for student use. The drives held staff records. What should the technician do before handing them over?
-
-A. Run a wiping tool that overwrites every sector of each drive
-
-B. Degauss the drives
-
-C. Perform a quick format of each drive
-
-D. Drill a hole through each drive
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: A.** The drives will be reused, so they must be sanitized and still work. Overwriting every sector makes the old data unrecoverable while keeping the drive usable. (Objective 2.9)
-
-- **B** is wrong because degaussing a hard drive leaves it unusable, and the library needs working computers.
-- **C** is wrong because a quick format leaves the data on the disk where recovery tools can read it.
-- **D** is wrong because drilling destroys the drive.
-
-</details>
-
-### Item 10
-
-A home office worker runs a small security camera recorder that must be reachable from the internet on TCP port 8443. The router currently has UPnP enabled and a "DMZ host" option available. Which configuration is MOST secure while still meeting the need?
-
-A. Set the recorder as the DMZ host and leave UPnP enabled
-
-B. Disable UPnP and create a port forwarding rule for TCP 8443 to the recorder only
-
-C. Leave UPnP enabled so the recorder can open whatever ports it needs
-
-D. Disable the router firewall so the connection is not blocked
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: B.** Port forwarding opens only the one port to the one device that needs it, and disabling UPnP stops devices or malware opening ports on their own. (Objective 2.10)
-
-- **A** is wrong because a DMZ host exposes every port on the recorder to the internet.
-- **C** is wrong because UPnP lets any device on the network open ports without checks.
-- **D** is wrong because disabling the firewall exposes the whole network.
-
-</details>
-
-### Item 11
-
-A user downloaded a browser installer from a mirror site because the vendor's site was slow. The vendor publishes a SHA-256 value for each release. What should the technician do before running the file?
-
-A. Open the file in private-browsing mode
-
-B. Clear the browser cache and download it again
-
-C. Check that the mirror site uses HTTPS
-
-D. Generate the file's SHA-256 hash and compare it with the vendor's published value
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: D.** A matching hash proves the file is identical to the vendor's release and was not altered on the mirror. (Objective 2.11)
-
-- **A** is wrong because private browsing only stops local history; it does not check the file.
-- **B** is wrong because downloading again from the same untrusted source proves nothing.
-- **C** is wrong because HTTPS protects the transfer, but the mirror itself could host a modified file.
-
-</details>
-
-### Item 12
-
-A manager regularly carries board reports on a USB flash drive between offices. She wants the drive to be unreadable if she loses it. Which Windows feature fits BEST?
-
-A. BitLocker To Go
-
-B. Encrypting File System on her laptop's Documents folder
-
-C. BitLocker on her laptop's system drive
-
-D. Setting the Hidden attribute on the files
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: A.** BitLocker To Go encrypts removable drives, so a lost USB stick cannot be read without the password. (Objective 2.2)
-
-- **B** is wrong because EFS protects files on the laptop's NTFS drive, not on the separate USB stick.
-- **C** is wrong because BitLocker on the system drive protects the laptop, not the flash drive.
-- **D** is wrong because a hidden attribute only hides files from casual view; it encrypts nothing.
-
-</details>
-
-### Item 13
-
-A technician is cleaning malware from a Windows Home PC. Which sequence of these four actions is in the correct order?
-
-```
-P. Enable System Restore and create a restore point
-Q. Update the anti-malware software and scan in Safe Mode
-R. Disable System Restore
-S. Schedule scans and install updates
-```
-
-A. Q, R, S, P
-
-B. R, P, Q, S
-
-C. R, Q, S, P
-
-D. Q, S, R, P
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: C.** System Restore is disabled before remediation, cleaning happens next, then scans and updates are scheduled, and System Restore is turned back on with a fresh restore point once the PC is clean. (Objective 2.6)
-
-- **A** is wrong because System Restore must be disabled before cleaning, so old infected restore points cannot be used.
-- **B** is wrong because it creates a new restore point before the system is clean, which could save the malware.
-- **D** is wrong because it disables System Restore after cleaning, too late to protect the process.
-
-</details>
-
-### Item 14
-
-A 40-person accounting firm has no security staff. After a ransomware scare, the owners want suspicious activity on all laptops watched and responded to around the clock by experts. Which option fits BEST?
-
-A. Install a free antivirus on each laptop
-
-B. Turn on the Windows Defender Firewall on each laptop
-
-C. Run annual antiphishing training
-
-D. Subscribe to a managed detection and response (MDR) service
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: D.** MDR provides an outside team that monitors endpoints and responds to threats around the clock, which fits a firm with no security staff of its own. (Objective 2.4)
-
-- **A** is wrong because antivirus scans for known threats but nobody watches or responds to alerts.
-- **B** is wrong because a host firewall blocks connections but does not provide monitoring or response.
-- **C** is wrong because training is valuable prevention, but it is not round-the-clock monitoring.
-
-</details>
+Want more? The [free timed CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus) has 25 questions across both cores, with your score split by domain.
 
 ## Score yourself
 
-| Item | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Answer | B | D | C | A | B | D | B, E | C | A | B | D | A | C | D |
-| Objective | 2.6 | 2.3 | 2.2 | 2.4 | 2.5 | 2.1 | 2.7 | 2.8 | 2.9 | 2.10 | 2.11 | 2.2 | 2.6 | 2.4 |
+| Item | 1 | 2 |
+|---|---|---|
+| Answer | B | C |
+| Objective | 2.6 | 2.2 |
 
-- **13 to 14:** strong. Keep this domain fresh with mixed practice, since it carries as much weight as any Core 2 domain.
-- **10 to 12:** list the objectives you missed. Malware removal order, share vs NTFS permissions and disposal methods are the usual weak spots; reread those parts of [Key concepts](#key-concepts-explained).
-- **9 or fewer:** spend two study sessions here. Write the ten malware removal steps and the share vs NTFS rules from memory, then reread [2.6 Malware removal procedure](#26-malware-removal-procedure) and [2.2 Windows security settings](#22-windows-security-settings) before redoing the items.
+- **2 of 2:** strong. Keep this domain fresh with mixed practice, since it carries as much weight as any Core 2 domain.
+- **1 of 2:** list the objectives you missed. Malware removal order, share vs NTFS permissions and disposal methods are the usual weak spots; reread those parts of [Key concepts](#key-concepts-explained).
+- **0 of 2:** spend two study sessions here. Write the ten malware removal steps and the share vs NTFS rules from memory, then reread [2.6 Malware removal procedure](#26-malware-removal-procedure) and [2.2 Windows security settings](#22-windows-security-settings) before redoing the items.
 
 ## Next step
 

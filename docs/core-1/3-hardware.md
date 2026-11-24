@@ -412,114 +412,9 @@ The exam is one 90-minute block with up to 90 questions, so plan for about a min
 
 ## Practice items
 
-These 12 items are original, written for these notes. They are not taken from CompTIA's exam or any prep provider.
+These 2 items are original, written for these notes. They are not taken from CompTIA's exam or any prep provider.
 
 ### Item 1
-
-A graphic designer needs a new monitor. She must see accurate colors, and clients often look at the screen from the side during reviews. Her budget only covers an LCD monitor. Which panel type should the technician recommend?
-
-A. TN
-
-B. IPS
-
-C. VA
-
-D. CCFL-backlit TN
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: B.** IPS panels give the best color accuracy and the widest viewing angles of the LCD types. (Objective 3.1)
-
-- **A** is wrong because TN panels are fast and cheap but have the poorest color and viewing angles.
-- **C** is wrong because VA panels are known for contrast, with viewing angles and color behind IPS.
-- **D** is wrong because a CCFL backlight is old technology, and the TN panel still has poor angles and color.
-
-</details>
-
-### Item 2
-
-A technician is running new network cable to offices through the space above a drop ceiling. The building engineer says that space is part of the air return system for heating and cooling. Which cable must the technician use?
-
-A. Direct burial Cat 6
-
-B. Shielded twisted pair with a PVC jacket
-
-C. RG6 coaxial
-
-D. Plenum-rated Cat 6
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: D.** Spaces used for air circulation are plenum spaces. Fire codes require plenum-rated cable there because it gives off less toxic smoke if it burns. (Objective 3.2)
-
-- **A** is wrong because direct burial cable is made for underground runs, not air-handling spaces.
-- **B** is wrong because shielding helps with interference, but a PVC jacket is not allowed in a plenum.
-- **C** is wrong because coax is not used for office Ethernet, and it would also need a plenum rating.
-
-</details>
-
-### Item 3
-
-A technician is checking a cable she just crimped. The pin order at one end is:
-
-```
-Pin 1  white and orange
-Pin 2  orange
-Pin 3  white and green
-Pin 4  blue
-Pin 5  white and blue
-Pin 6  green
-Pin 7  white and brown
-Pin 8  brown
-```
-
-Which wiring standard is this?
-
-A. T568B
-
-B. T568A
-
-C. Cat 6a
-
-D. RJ11
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: A.** T568B starts with the orange pair on pins 1 and 2 and puts green on pins 3 and 6. (Objective 3.2)
-
-- **B** is wrong because T568A starts with white and green, green on pins 1 and 2.
-- **C** is wrong because Cat 6a is a cable category that sets speed and length limits; it is not a pin order.
-- **D** is wrong because RJ11 is a smaller phone connector, not a wiring standard for eight wires.
-
-</details>
-
-### Item 4
-
-A user installed two identical 16 GB DDR5 DIMMs in slots A1 and A2 of a four-slot desktop board. The system sees 32 GB, but a utility reports single-channel mode. The manual says to use A2 and B2 for two modules. What should the technician do?
-
-A. Replace the modules with ECC memory
-
-B. Add a third module to slot B1
-
-C. Move the modules to slots A2 and B2
-
-D. Lower the memory speed in UEFI
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: C.** Both modules are on channel A. Placing them in A2 and B2, as the manual says, puts one on each channel and enables dual-channel mode. (Objective 3.3)
-
-- **A** is wrong because ECC is about error correction, not channel mode, and the board may not support it.
-- **B** is wrong because an odd number of modules leaves the channels unbalanced and still does not fix the placement.
-- **D** is wrong because memory speed does not decide whether the modules run in dual-channel.
-
-</details>
-
-### Item 5
 
 A small business buys a storage server with four 4 TB drives. The owner's requirements are:
 
@@ -549,7 +444,7 @@ D. RAID 6, 8 TB usable
 
 </details>
 
-### Item 6
+### Item 2
 
 A technician installs a new M.2 NVMe SSD in a laptop. The drive does not appear in UEFI or in Windows Disk Management. The laptop's manual says its M.2 slot supports "SATA M.2 2280 drives". What is the MOST likely cause?
 
@@ -572,164 +467,18 @@ D. The laptop needs more RAM to detect an NVMe drive
 
 </details>
 
-### Item 7
-
-A developer installs a hypervisor on his desktop to run test virtual machines. The hypervisor refuses to start a VM and reports that hardware virtualization is unavailable. The CPU supports it. What should the technician do?
-
-A. Enable Intel VT-x or AMD-V in the UEFI settings
-
-B. Enable Secure Boot
-
-C. Set a BIOS supervisor password
-
-D. Install a second graphics card
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: A.** Hardware virtualization support must be turned on in UEFI before a hypervisor can use it, even when the CPU supports it. (Objective 3.5)
-
-- **B** is wrong because Secure Boot checks bootloader signatures and does not provide virtualization.
-- **C** is wrong because a password protects firmware settings but does not enable features.
-- **D** is wrong because a graphics card is not required for hardware virtualization.
-
-</details>
-
-### Item 8
-
-A school wants to stop students booting the lab PCs from their own USB drives and changing firmware settings to get around that rule. Which two UEFI changes should the technician make? (Choose two.)
-
-A. Set a BIOS (supervisor) password
-
-B. Enable the TPM
-
-C. Remove USB devices from the boot options or disable USB boot
-
-D. Increase the minimum fan speed
-
-E. Enable virtualization support
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: A and C.** Disabling USB boot stops students starting another operating system from a USB drive. A BIOS password stops them changing that setting back. (Objective 3.5)
-
-- **B** is wrong because the TPM stores encryption keys; it does not control which devices can boot.
-- **D** is wrong because fan speed is about cooling.
-- **E** is wrong because virtualization support lets hypervisors run and has nothing to do with boot control.
-
-</details>
-
-### Item 9
-
-A technician is choosing a power supply for a new workstation with these parts:
-
-```
-CPU                                105 W
-Graphics card                      285 W
-Motherboard, RAM, drives, fans     about 90 W
-```
-
-Which power supply is the BEST choice?
-
-A. 450 W, 80 PLUS Titanium
-
-B. 500 W, 80 PLUS Bronze
-
-C. 750 W, 80 PLUS Gold
-
-D. 450 W redundant pair
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: C.** The parts need about 480 W. A 750 W unit gives healthy headroom so it does not run near its limit, and Gold is efficient. (Objective 3.6)
-
-- **A** is wrong because 450 W is below the 480 W load, however efficient the unit is.
-- **B** is wrong because 500 W would run almost at its maximum under load, which leads to instability and early failure.
-- **D** is wrong because in a redundant pair each unit must carry the whole load alone, and 450 W is too small.
-
-</details>
-
-### Item 10
-
-The finance team prints payroll reports on a shared multifunction printer. Pages are sometimes picked up by the wrong person. The manager wants each job to stay in the printer until its owner is standing at the device. What should the technician configure?
-
-A. Duplex printing as the default
-
-B. A PostScript driver for each user
-
-C. Audit logs on the device
-
-D. Secured prints released by badge or PIN at the printer
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: D.** Secured (held) printing keeps the job in the queue until the user authenticates at the device, so confidential pages are not left in the tray. (Objective 3.7)
-
-- **A** is wrong because duplex saves paper but does nothing to protect confidential pages.
-- **B** is wrong because the driver language changes how pages are rendered, not who can collect them.
-- **C** is wrong because audit logs record who printed what after the fact; they do not stop the wrong person taking pages.
-
-</details>
-
-### Item 11
-
-A laser printer's pages come out with toner that smudges and rubs off when users touch it. The printer's status page shows it has passed the page count for its scheduled maintenance. What should the technician do?
-
-A. Replace the toner cartridge
-
-B. Install the manufacturer's maintenance kit, which includes the fuser, and reset the counter
-
-C. Run the printhead cleaning utility
-
-D. Replace the ribbon
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: B.** Toner that rubs off was not melted into the paper, which is a fusing problem. The printer is past its maintenance interval, and the maintenance kit replaces the fuser and rollers. (Objective 3.8)
-
-- **A** is wrong because a new toner cartridge would not fix toner that is not being fused.
-- **C** is wrong because printhead cleaning is an inkjet task.
-- **D** is wrong because ribbons are used by impact printers.
-
-</details>
-
-### Item 12
-
-A cashier replaces the paper roll in a thermal receipt printer. Now the printer feeds paper normally, but every receipt comes out completely blank. What is the MOST likely cause?
-
-A. The ink cartridge is empty
-
-B. The printer needs a maintenance kit with a new fuser
-
-C. The roll is in the wrong way round, or it is not thermal paper
-
-D. The printer needs a PostScript driver
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: C.** Thermal printers darken heat-sensitive paper. If the coated side faces away from the heating element, or ordinary paper was loaded, the receipts come out blank even though paper feeds. (Objective 3.8)
-
-- **A** is wrong because thermal printers use no ink.
-- **B** is wrong because fusers are part of laser printers.
-- **D** is wrong because a driver problem would not start right after a paper change, and receipt printers do not need PostScript.
-
-</details>
+Want more? The [free timed CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus) has 25 questions across both cores, with your score split by domain.
 
 ## Score yourself
 
-| Item | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Answer | B | D | A | C | D | B | A | A, C | C | D | B | C |
-| Objective | 3.1 | 3.2 | 3.2 | 3.3 | 3.4 | 3.4 | 3.5 | 3.5 | 3.6 | 3.7 | 3.8 | 3.8 |
+| Item | 1 | 2 |
+|---|---|---|
+| Answer | D | B |
+| Objective | 3.4 | 3.4 |
 
-- **11 to 12:** strong. Keep the connector and RAID tables fresh, because this is the heaviest hardware block on Core 1.
-- **9 to 10:** list the objectives you missed. RAID misses mean redo the worked example in [3.4 Storage devices and RAID](#34-storage-devices-and-raid); printer misses mean reread [3.8 Printer maintenance](#38-printer-maintenance).
-- **8 or fewer:** spend two study sessions here. Draw the T568A and T568B pinouts, the RAID table and the DDR table from memory, then reread [3.2 Cables and connectors](#32-cables-and-connectors) and [3.5 Motherboards, CPUs and add-on cards](#35-motherboards-cpus-and-add-on-cards) before redoing the items.
+- **2 of 2:** strong. Keep the connector and RAID tables fresh, because this is the heaviest hardware block on Core 1.
+- **1 of 2:** list the objectives you missed. RAID misses mean redo the worked example in [3.4 Storage devices and RAID](#34-storage-devices-and-raid); printer misses mean reread [3.8 Printer maintenance](#38-printer-maintenance).
+- **0 of 2:** spend two study sessions here. Draw the T568A and T568B pinouts, the RAID table and the DDR table from memory, then reread [3.2 Cables and connectors](#32-cables-and-connectors) and [3.5 Motherboards, CPUs and add-on cards](#35-motherboards-cpus-and-add-on-cards) before redoing the items.
 
 ## Next step
 

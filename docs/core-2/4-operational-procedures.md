@@ -349,62 +349,9 @@ Each Core 2 exam is one 90-minute block of up to 90 questions, so aim for about 
 
 ## Practice items
 
-These 10 items are original, written for these notes. They are not taken from CompTIA's exam or any prep provider.
+These 2 items are original, written for these notes. They are not taken from CompTIA's exam or any prep provider.
 
 ### Item 1
-
-A Tier 1 technician fixed a user's printing problem and must close the ticket. Which resolution note is BEST?
-
-A. "Fixed printer. Closed."
-
-B. "Cause: print spooler service stopped after last night's update. Restarted spooler, set startup type to Automatic, printed test page with user, user confirmed working."
-
-C. "User was not able to print properly. I checked many things and tried various solutions until it eventually worked again."
-
-D. "Probably a driver issue again. Will keep an eye on it."
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: B.** It states the cause, the exact fix, how it was tested and that the user confirmed it. Another technician could repeat it, and it can become a knowledge base article. (Objective 4.1)
-
-- **A** is wrong because it gives no cause or fix, so nobody can learn from it.
-- **C** is wrong because it is long but says nothing specific.
-- **D** is wrong because it guesses at a cause and does not record what was done.
-
-</details>
-
-### Item 2
-
-A company is upgrading the accounting software on its file server. Put these change management steps in the correct order.
-
-```
-P. Implement the upgrade during the Sunday maintenance window
-Q. Submit a request form with purpose, scope, risk analysis and a rollback plan
-R. Obtain change board approval
-S. Get end-user acceptance from the accounting team
-```
-
-A. Q, P, R, S
-
-B. R, Q, P, S
-
-C. Q, R, P, S
-
-D. P, Q, R, S
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: C.** The change is requested and assessed first, then approved by the board, then carried out in the maintenance window, and finally the users confirm it works. (Objective 4.2)
-
-- **A** is wrong because it implements the change before it is approved.
-- **B** is wrong because the board cannot approve a change that has not been requested.
-- **D** is wrong because it makes the change before anyone requests or approves it.
-
-</details>
-
-### Item 3
 
 A small office uses this backup schedule on its main workstation:
 
@@ -437,55 +384,7 @@ D. Sunday's full only
 
 </details>
 
-### Item 4
-
-A technician is about to replace a RAM module in a desktop PC. Choose two actions that follow proper safety procedures.
-
-A. Unplug the power cord and press the power button to drain stored charge
-
-B. Open the power supply to check its fan while the case is open
-
-C. Clean the dust from the motherboard first with a household vacuum cleaner
-
-D. Wear an ESD strap clipped to an unpainted metal part of the chassis
-
-E. Put the old module in a plastic sandwich bag for storage
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: A and D.** Removing power protects the technician and the parts, and an ESD strap clipped to bare chassis metal keeps the technician and PC at the same potential, so static does not damage the RAM. (Objective 4.4)
-
-- **B** is wrong because power supplies hold dangerous charge and should never be opened.
-- **C** is wrong because a normal vacuum can build up static; use compressed air or an ESD-safe vacuum.
-- **E** is wrong because plastic bags can build static; use an antistatic bag.
-
-</details>
-
-### Item 5
-
-A clinic's reception PC sits in an area where the lights often dim for several seconds during storms. Each time, the PC restarts and the user loses unsaved work. The PC is already plugged into a surge suppressor. What should the technician recommend?
-
-A. A higher joule rating on the surge suppressor
-
-B. A new power supply with higher wattage
-
-C. Moving the PC closer to the wall outlet
-
-D. An uninterruptible power supply (UPS)
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: D.** Dimming lights for several seconds is a brownout, a sustained drop in voltage. A UPS supplies battery power through brownouts and short outages so the PC keeps running. (Objective 4.5)
-
-- **A** is wrong because a surge suppressor only absorbs spikes; it cannot supply missing voltage.
-- **B** is wrong because a bigger PSU still needs proper input voltage.
-- **C** is wrong because cable length is not the problem.
-
-</details>
-
-### Item 6
+### Item 2
 
 While repairing a laptop for a staff member, a technician opens a folder to check a sync error and sees images that appear to be illegal. What should the technician do FIRST?
 
@@ -508,116 +407,18 @@ D. Finish the repair quickly and return the laptop without comment
 
 </details>
 
-### Item 7
-
-A user is angry because her laptop has been in for repair for three days and she has a presentation tomorrow. She raises her voice at the help desk technician. Which response is MOST appropriate?
-
-A. Listen without interrupting, restate her concern, explain the status and offer a loaner laptop with a clear time for the repair
-
-B. Explain that the delay is the vendor's fault, not the help desk's
-
-C. Tell her that shouting will not make the repair any faster
-
-D. Put her on hold and pass the call to a colleague
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: A.** Active listening and restating calm the situation, and a status update plus a loaner and timeline set clear expectations and solve her real problem, the presentation. (Objective 4.7)
-
-- **B** is wrong because blaming others is defensive and does not help her.
-- **C** is wrong because it argues with the customer and dismisses her concern.
-- **D** is wrong because passing her on without dealing with the issue avoids the problem.
-
-</details>
-
-### Item 8
-
-A technician finds this script on a shared support drive:
-
-```
-@echo off
-REM Map the sales share for every user at sign-in
-net use S: \\fs01\sales /persistent:yes
-```
-
-Which file type and use case does this script represent?
-
-A. A `.ps1` file used for automated backups
-
-B. A `.sh` file used to restart machines
-
-C. A `.bat` file used to remap network drives
-
-D. A `.vbs` file used to gather system information
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: C.** `@echo off`, `REM` comments and `net use` are Windows batch syntax, and the script maps the S: drive to a network share. (Objective 4.8)
-
-- **A** is wrong because PowerShell comments start with `#`, and nothing here backs up data.
-- **B** is wrong because `.sh` scripts run on Linux and macOS and nothing here restarts anything.
-- **D** is wrong because VBScript uses `'` for comments and this script does not gather information.
-
-</details>
-
-### Item 9
-
-A small company lets staff reach their office desktops from home with Remote Desktop. The router forwards TCP 3389 from the internet to the desktops, and the logs show thousands of failed sign-in attempts every day. What is the BEST way to keep remote access while reducing the risk?
-
-A. Change the desktops to use VNC on TCP 5900 instead
-
-B. Share the Remote Desktop password only with managers
-
-C. Turn off Windows Firewall on the desktops so connections are faster
-
-D. Remove the port forward and require staff to connect to a VPN before using Remote Desktop
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: D.** Closing the open port stops internet-wide password guessing, and a VPN with strong authentication lets only staff reach the desktops, then RDP runs inside the tunnel. (Objective 4.9)
-
-- **A** is wrong because exposing VNC to the internet has the same problem, often with weaker security.
-- **B** is wrong because the attacks come from the internet, not from staff, and sharing passwords is itself poor practice.
-- **C** is wrong because disabling the firewall removes protection and makes things worse.
-
-</details>
-
-### Item 10
-
-A help desk technician wants to save time by pasting full customer tickets, including names, home addresses and account numbers, into a free public AI chatbot to draft replies. What is the main concern?
-
-A. The chatbot may write replies that are too short
-
-B. AI replies always contain plagiarism
-
-C. Customer PII is being sent to a public AI service, which can break data privacy rules and company policy
-
-D. The chatbot will not understand technical terms
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: C.** Public AI services may store and reuse what you type. Sending customers' personal data there is a data privacy and policy problem. The technician should use a company-approved private AI tool or remove the personal data. (Objective 4.10)
-
-- **A** is wrong because reply length is a minor issue next to leaking personal data.
-- **B** is wrong because AI output is not always plagiarism; the issue here is privacy.
-- **D** is wrong because understanding terms is an accuracy issue, not the main risk in this scenario.
-
-</details>
+Want more? The [free timed CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus) has 25 questions across both cores, with your score split by domain.
 
 ## Score yourself
 
-| Item | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Answer | B | C | A | A, D | D | B | A | C | D | C |
-| Objective | 4.1 | 4.2 | 4.3 | 4.4 | 4.5 | 4.6 | 4.7 | 4.8 | 4.9 | 4.10 |
+| Item | 1 | 2 |
+|---|---|---|
+| Answer | A | B |
+| Objective | 4.3 | 4.6 |
 
-- **9 to 10:** strong. Keep the backup maths and remote access ports fresh with mixed practice.
-- **7 to 8:** note which objectives you missed. Backup restores and change order are the usual slips: redo the worked example in [4.3 Workstation backup and recovery](#43-workstation-backup-and-recovery) and reread [4.2 Change management](#42-change-management).
-- **6 or fewer:** spend two study sessions here. Write the backup types table and the remote access table from memory, then reread [4.4 Safety procedures](#44-safety-procedures), [4.6 Prohibited content, privacy, licensing and policy](#46-prohibited-content-privacy-licensing-and-policy) and [4.9 Remote access technologies](#49-remote-access-technologies) before redoing the items.
+- **2 of 2:** strong. Keep the backup maths and remote access ports fresh with mixed practice.
+- **1 of 2:** note which objectives you missed. Backup restores and change order are the usual slips: redo the worked example in [4.3 Workstation backup and recovery](#43-workstation-backup-and-recovery) and reread [4.2 Change management](#42-change-management).
+- **0 of 2:** spend two study sessions here. Write the backup types table and the remote access table from memory, then reread [4.4 Safety procedures](#44-safety-procedures), [4.6 Prohibited content, privacy, licensing and policy](#46-prohibited-content-privacy-licensing-and-policy) and [4.9 Remote access technologies](#49-remote-access-technologies) before redoing the items.
 
 ## Next step
 

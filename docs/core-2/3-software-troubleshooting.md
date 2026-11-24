@@ -202,32 +202,9 @@ Each Core 2 exam is one 90-minute block of up to 90 questions, so aim for about 
 
 ## Practice items
 
-These 12 items are original, written for these notes. They are not taken from CompTIA's exam or any prep provider.
+These 2 items are original, written for these notes. They are not taken from CompTIA's exam or any prep provider.
 
 ### Item 1
-
-A user installed an updated graphics driver yesterday. Since then, Windows shows a blue screen with the same stop code within a few minutes of every sign-in. What should the technician do?
-
-A. Replace the RAM, because blue screens are caused by memory faults
-
-B. Reinstall Windows from recovery media
-
-C. Boot into Safe Mode and roll back the graphics driver in Device Manager
-
-D. Run `chkdsk C: /r` to look for bad sectors
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: C.** The crashes started right after the driver update, so the driver is the most likely cause. Safe Mode loads a basic display driver, so Windows stays up long enough to roll the driver back. (Objective 3.1)
-
-- **A** is wrong because RAM can cause blue screens, but nothing points to memory here and the timing points to the driver.
-- **B** is wrong because reinstalling Windows is far bigger than needed for one bad driver.
-- **D** is wrong because disk errors do not match a fault that began with a driver install.
-
-</details>
-
-### Item 2
 
 A domain user cannot sign in on one desktop, and Chrome on that desktop shows certificate errors for every HTTPS site. Other PCs work normally. The technician runs a command and sees this:
 
@@ -259,235 +236,7 @@ D. Remove the desktop from the domain and rejoin it
 
 </details>
 
-### Item 3
-
-A user's desktop showed "No operating system found" this morning. It worked yesterday, and she mentions she left a USB stick in the front port to copy photos. What should the technician do FIRST?
-
-A. Run `bootrec /rebuildbcd` from the Windows Recovery Environment
-
-B. Replace the hard drive
-
-C. Reinstall Windows from recovery media
-
-D. Remove the USB stick and restart, then check the boot order if needed
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: D.** The PC is probably trying to boot from the USB stick, which has no OS. Removing it and restarting is the quickest test, and checking the boot order in UEFI comes next if it still fails. (Objective 3.1)
-
-- **A** is wrong because rebuilding boot data is a later step, after ruling out the boot device.
-- **B** is wrong because nothing shows the drive has failed.
-- **C** is wrong because reinstalling destroys time and possibly data for a fault that may take seconds to fix.
-
-</details>
-
-### Item 4
-
-A user says the banking app on her phone will not update. The app store shows the update but stops with an error. The phone's storage screen shows:
-
-```
-Storage: 127.4 GB of 128 GB used
-Photos and videos   88.2 GB
-Apps                31.6 GB
-System               7.6 GB
-```
-
-What should the technician do?
-
-A. Factory reset the phone and restore from backup
-
-B. Free up storage by offloading unused apps or moving photos to cloud storage
-
-C. Turn on airplane mode and retry the update
-
-D. Enable developer mode to force the update
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: B.** The phone has well under 1 GB free, and updates need room to download and install. Freeing storage fixes the cause. (Objective 3.2)
-
-- **A** is wrong because a reset is far too big, and restoring would bring the full storage back.
-- **C** is wrong because airplane mode cuts the connection the update needs.
-- **D** is wrong because developer mode does not affect store updates and adds a security risk.
-
-</details>
-
-### Item 5
-
-A user's new phone works with NFC payment terminals at home but not at work, where she keeps the phone in a heavy metal-backed card case. NFC is enabled and the payment app is set as the default. What is the MOST likely fix?
-
-A. Take the phone out of the case when paying
-
-B. Turn on Bluetooth before paying
-
-C. Reset network settings on the phone
-
-D. Install a second payment app as a backup
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: A.** NFC works only within a few centimeters, and a thick or metal case can block the signal. The settings are already right, so the case is the likely cause. (Objective 3.2)
-
-- **B** is wrong because NFC payments do not use Bluetooth.
-- **C** is wrong because resetting network settings clears Wi-Fi and Bluetooth but does not fix a physical block.
-- **D** is wrong because a second app faces the same blocked signal.
-
-</details>
-
-### Item 6
-
-A user reports that videos and photos on her tablet stay in portrait when she turns it sideways. Yesterday they rotated normally. Nothing new was installed. What should the technician check FIRST?
-
-A. Whether the motion sensor needs replacing
-
-B. Whether the tablet needs a factory reset
-
-C. Whether rotation lock is turned on in the quick settings or Control Center
-
-D. Whether the OS is due for an update
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: C.** Rotation lock is easy to turn on by accident from the quick settings, and it stops all rotation. It takes seconds to check. (Objective 3.2)
-
-- **A** is wrong because a sensor fault is possible but comes after ruling out the simple setting.
-- **B** is wrong because a reset is far too drastic for this symptom.
-- **D** is wrong because nothing changed and an update is not the likely cause.
-
-</details>
-
-### Item 7
-
-A salesperson's Android phone has started showing full-screen ads over other apps, and he received a "90% of data plan used" text halfway through the month. Last week he installed a free video editor from a website link because it was not in the Play Store. Choose two actions the technician should take.
-
-A. Increase his mobile data allowance with the carrier
-
-B. Check the data usage screen and uninstall the sideloaded video editor
-
-C. Turn on developer options to view background processes
-
-D. Root the phone so a stronger antivirus can run
-
-E. Run a reputable mobile anti-malware scan and update the OS
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: B and E.** The sideloaded app is the likely source of the adware and data use, so it should be found on the data usage screen and removed, then the phone scanned and updated to catch anything left behind. (Objective 3.3)
-
-- **A** is wrong because more data treats the symptom and lets the malware keep running.
-- **C** is wrong because developer options add risk and are not needed to remove the app.
-- **D** is wrong because rooting removes the OS protections and makes the phone less secure.
-
-</details>
-
-### Item 8
-
-An employee clicked a link in a text message that said her messaging app needed a "security update". She installed what looked like the app, with the same icon and a similar name, and signed in with her work account. Now contacts say they are receiving strange messages from her. What has MOST likely happened?
-
-A. The phone has been jailbroken
-
-B. The phone is out of storage
-
-C. The company Wi-Fi is down
-
-D. She installed a spoofed application that captured her credentials
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: D.** A fake app that copies a real app's name and icon is application spoofing. It collected her sign-in and is now sending messages from her account. (Objective 3.3)
-
-- **A** is wrong because nothing in the stem describes removing the OS's restrictions.
-- **B** is wrong because full storage does not send messages to contacts.
-- **C** is wrong because a Wi-Fi outage would stop messages, not send strange ones.
-
-</details>
-
-### Item 9
-
-The MDM console flags a company-owned Android phone as non-compliant. The user says nothing is wrong. The report shows "Developer options: enabled, USB debugging: on". What should the technician do?
-
-A. Turn off developer options and USB debugging, then check the device's compliance again
-
-B. Remove the phone from MDM so the warning stops
-
-C. Leave it, because developer options only matter for app developers
-
-D. Replace the phone with a new one
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: A.** Developer mode and USB debugging let a connected computer install apps and change settings, so they should be off on a user's work phone. Turning them off fixes the cause of the alert. (Objective 3.3)
-
-- **B** is wrong because removing MDM hides the problem and removes company protection.
-- **C** is wrong because developer mode is a real security concern on ordinary user devices.
-- **D** is wrong because a setting change fixes it; the hardware is fine.
-
-</details>
-
-### Item 10
-
-A user at a coffee shop gets browser certificate warnings when visiting her bank, her email and a major search engine. At home on the same laptop, all three load without warnings, and the laptop's clock is correct. What is the MOST likely cause?
-
-A. The bank's certificate has expired
-
-B. The browser cache is full
-
-C. Something on the coffee shop network is intercepting HTTPS traffic
-
-D. The laptop's CMOS battery is failing
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: C.** Several large sites fail only on one network while the clock is right, which points at an on-path attack on that network. She should disconnect and not click through the warnings. (Objective 3.4)
-
-- **A** is wrong because the bank site works at home, and the other sites fail too.
-- **B** is wrong because a full cache does not cause certificate errors.
-- **D** is wrong because the clock is correct, and a clock fault would affect every network.
-
-</details>
-
-### Item 11
-
-A user says that typing his bank's address always lands on a site that looks slightly different and asks for his card number. The technician opens the hosts file on the PC:
-
-```
-# Copyright (c) 1993-2009 Microsoft Corp.
-# localhost name resolution is handled within DNS itself.
-#       127.0.0.1       localhost
-203.0.113.45    www.examplebank.com
-203.0.113.45    examplebank.com
-```
-
-What is the cause of the redirection?
-
-A. The bank's DNS servers are down
-
-B. The browser's pop-up blocker is turned off
-
-C. The user's browser cache holds an old version of the site
-
-D. Malware added hosts file entries that send the bank's name to another server
-
-<details>
-<summary>Answer and explanation</summary>
-
-**Answer: D.** Windows reads the hosts file before asking DNS. The two active lines send the bank's names to a different address, so every visit goes to the fake site. The entries must be removed and the PC cleaned of the malware that added them. (Objective 3.4)
-
-- **A** is wrong because a DNS outage would stop the site loading, not send it to a lookalike.
-- **B** is wrong because pop-ups do not change where an address goes.
-- **C** is wrong because an old cached page would still be the real bank site.
-
-</details>
-
-### Item 12
+### Item 2
 
 An office worker calls to say that the files in her Documents folder now end in `.locked` and will not open, and a text file on the desktop demands payment for a key. Her PC is on the office network with a mapped drive to the file server. What should the technician do FIRST?
 
@@ -510,16 +259,18 @@ D. Run a full antivirus scan while she keeps working
 
 </details>
 
+Want more? The [free timed CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus) has 25 questions across both cores, with your score split by domain.
+
 ## Score yourself
 
-| Item | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Answer | C | A | D | B | A | C | B, E | D | A | C | D | B |
-| Objective | 3.1 | 3.1 | 3.1 | 3.2 | 3.2 | 3.2 | 3.3 | 3.3 | 3.3 | 3.4 | 3.4 | 3.4 |
+| Item | 1 | 2 |
+|---|---|---|
+| Answer | A | B |
+| Objective | 3.1 | 3.4 |
 
-- **11 to 12:** strong. Keep the symptom tables fresh with mixed practice, since this domain is almost a quarter of Core 2.
-- **8 to 10:** list which objectives you missed. If you picked big fixes (reset, reimage) too early, practice the fix ladder at the top of [Key concepts](#key-concepts-explained). If you missed security items, reread [3.3 Mobile OS and application security issues](#33-mobile-os-and-application-security-issues) and [3.4 PC security issues](#34-pc-security-issues).
-- **7 or fewer:** spend two study sessions here. Write the 3.1 symptom table from memory (symptom, cause, fix), then reread [3.1 Windows OS issues](#31-windows-os-issues) and [3.2 Mobile OS and application issues](#32-mobile-os-and-application-issues) before redoing the items.
+- **2 of 2:** strong. Keep the symptom tables fresh with mixed practice, since this domain is almost a quarter of Core 2.
+- **1 of 2:** list which objectives you missed. If you picked big fixes (reset, reimage) too early, practice the fix ladder at the top of [Key concepts](#key-concepts-explained). If you missed security items, reread [3.3 Mobile OS and application security issues](#33-mobile-os-and-application-security-issues) and [3.4 PC security issues](#34-pc-security-issues).
+- **0 of 2:** spend two study sessions here. Write the 3.1 symptom table from memory (symptom, cause, fix), then reread [3.1 Windows OS issues](#31-windows-os-issues) and [3.2 Mobile OS and application issues](#32-mobile-os-and-application-issues) before redoing the items.
 
 ## Next step
 
