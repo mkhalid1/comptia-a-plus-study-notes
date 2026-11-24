@@ -13,7 +13,7 @@ CompTIA's help center says its exams use a mathematical algorithm to calculate a
 | Scale | 100 to 900 | 100 to 900 |
 | Passing score | 675 | 700 |
 
-Because of the scaling, you cannot turn 675 or 700 into "you need 75% right". Different exam forms can have questions of slightly different difficulty, and scaling is how CompTIA makes a pass mean the same thing on every form. CompTIA states that it does not disclose the number of questions required to pass. It also means a 700 on Core 1 and a 700 on Core 2 are not directly comparable: each exam is scaled separately and has its own cut score.
+Because of the scaling, you cannot turn 675 or 700 into "you need 75% right". As we understand it (our reading, not a CompTIA statement), different exam forms can differ slightly in difficulty, and scaling is how CompTIA makes a pass mean the same thing on every form. CompTIA states that it does not disclose the number of questions required to pass. It also means a 700 on Core 1 and a 700 on Core 2 are not directly comparable: each exam is scaled separately and has its own cut score.
 
 ## Each core is scored on its own
 

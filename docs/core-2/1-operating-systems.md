@@ -911,7 +911,7 @@ D. Turn on folder backup in OneDrive
 
 1. Redo any item you missed without opening the explanation, and write the trap you fell for in one line.
 2. On a Windows PC, press Win+R and open each console from 1.4 by its file name (eventvwr.msc, diskmgmt.msc, devmgmt.msc and the rest), saying out loud what each one is for. Then run `ipconfig /all`, `netstat -ano` and `whoami /groups` and explain every line. If you can, do the same on a free Linux virtual machine with `ip a`, `ls -l /etc`, `df -h` and `sudo apt update`.
-3. Take a timed run with the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus) to practise pacing across the whole exam.
+3. Take a timed run with the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus) to practice pacing across the whole exam.
 
 ---
 

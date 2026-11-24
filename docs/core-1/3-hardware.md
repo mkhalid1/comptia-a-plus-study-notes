@@ -735,7 +735,7 @@ D. The printer needs a PostScript driver
 
 1. Redo any item you missed without opening the explanation, and write the trap you fell for in one line.
 2. Open a desktop PC (powered off, unplugged, with an antistatic strap) or find your own PC's specifications, and name every part: the motherboard form factor, CPU socket, RAM type and slot layout, M.2 slot type, PSU connectors and wattage. Then work out the usable capacity of RAID 0, 1, 5, 6 and 10 with six 2 TB drives.
-3. Take a timed run with the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus) to practise pacing across the whole exam.
+3. Take a timed run with the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus) to practice pacing across the whole exam.
 
 ---
 

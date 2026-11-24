@@ -817,7 +817,7 @@ D. Subscribe to a managed detection and response (MDR) service
 
 1. Redo any item you missed without opening the explanation, and write the trap you fell for in one line.
 2. On a Windows Pro PC or virtual machine, share a folder, give Everyone Read on the share and a test user Modify in NTFS, then try saving a file over the network and locally, and explain the difference. While you are there, open `wf.msc` and read one inbound rule.
-3. Take a timed run with the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus) to practise pacing across the whole exam.
+3. Take a timed run with the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus) to practice pacing across the whole exam.
 
 ---
 

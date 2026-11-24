@@ -518,14 +518,14 @@ D. Run a full antivirus scan while she keeps working
 | Objective | 3.1 | 3.1 | 3.1 | 3.2 | 3.2 | 3.2 | 3.3 | 3.3 | 3.3 | 3.4 | 3.4 | 3.4 |
 
 - **11 to 12:** strong. Keep the symptom tables fresh with mixed practice, since this domain is almost a quarter of Core 2.
-- **8 to 10:** list which objectives you missed. If you picked big fixes (reset, reimage) too early, practise the fix ladder at the top of [Key concepts](#key-concepts-explained). If you missed security items, reread [3.3 Mobile OS and application security issues](#33-mobile-os-and-application-security-issues) and [3.4 PC security issues](#34-pc-security-issues).
+- **8 to 10:** list which objectives you missed. If you picked big fixes (reset, reimage) too early, practice the fix ladder at the top of [Key concepts](#key-concepts-explained). If you missed security items, reread [3.3 Mobile OS and application security issues](#33-mobile-os-and-application-security-issues) and [3.4 PC security issues](#34-pc-security-issues).
 - **7 or fewer:** spend two study sessions here. Write the 3.1 symptom table from memory (symptom, cause, fix), then reread [3.1 Windows OS issues](#31-windows-os-issues) and [3.2 Mobile OS and application issues](#32-mobile-os-and-application-issues) before redoing the items.
 
 ## Next step
 
 1. Redo any item you missed without opening the explanation, and write the trap you fell for in one line.
 2. On a Windows PC or virtual machine, open Reliability Monitor and Event Viewer and find the last app crash and the last unexpected shutdown, run `sfc /scannow` from an admin prompt, and open the hosts file in Notepad to see what a clean one looks like. On your phone, open the battery usage and data usage screens and name the top three apps on each.
-3. Take a timed run with the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus) to practise pacing across the whole exam.
+3. Take a timed run with the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus) to practice pacing across the whole exam.
 
 ---
 

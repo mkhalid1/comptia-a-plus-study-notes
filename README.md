@@ -241,7 +241,7 @@ Weights are CompTIA's, per exam. Every domain guide has the same parts: what the
 - **Test yourself honestly.** Answers are hidden under "Answer and explanation". Commit to an answer before you open it.
 - **Read every explanation,** including for items you got right. Each one says why every wrong option is wrong.
 - **Get hands-on.** Open the tools and run the commands the pages describe on a real Windows, macOS or Linux machine. The performance-based questions reward people who have actually clicked through these screens.
-- **Practise timed.** A timed run, such as the [free one on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus), teaches the pace.
+- **Practice timed.** A timed run, such as the [free one on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus), teaches the pace.
 - **Clone or fork it** to annotate your own copy. The structure also works as a GitBook space: see [SUMMARY.md](SUMMARY.md).
 
 ## About the practice items

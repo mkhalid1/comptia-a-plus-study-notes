@@ -466,7 +466,7 @@ D. Remove the corporate email account
 
 1. Redo any item you missed without opening the explanation, and write the trap you fell for in one line.
 2. On a Windows laptop, run `powercfg /batteryreport`, open the HTML file it saves, and work out the battery's health as full charge capacity divided by design capacity. Then open your phone's cellular settings and find the app that used the most data this month.
-3. Take a timed run with the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus) to practise pacing across the whole exam.
+3. Take a timed run with the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus) to practice pacing across the whole exam.
 
 ---
 
