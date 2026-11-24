@@ -19,7 +19,7 @@ Use it once for Core 1 and once for Core 2. Expect 1.5 to 3 hours a day.
 | 3 | Domain 2 (23%) | Read [Networking](core-1/2-networking.md). Do both items. Write the port table from memory twice, once in the morning and once at night. |
 | 4 | Domain 5 (28%) | Read [Hardware and Network Troubleshooting](core-1/5-hardware-and-network-troubleshooting.md). Do both items. Build a one-page symptom and likely cause table. |
 | 5 | Domains 1 and 4 (13% and 11%), first timed run | Read [Mobile Devices](core-1/1-mobile-devices.md) and [Virtualization and Cloud Computing](core-1/4-virtualization-and-cloud-computing.md) and do the practice item in each. Then take a full timed practice test, such as the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus). Score it by domain. |
-| 6 | Fix the weakest heavy domain | Go back to the weakest domain from day 5. Reread its "Traps that cost points" section and redo its items without the answers. Do Practice task 1 on the [PBQ page](performance-based-questions.md). |
+| 6 | Fix the weakest heavy domain | Go back to the weakest domain from day 5. Reread its "Traps that cost points" section and redo its items without the answers. |
 | 7 | Second timed run and rest | Take a second timed test in the morning. Compare domain scores with day 5. Read the [exam-day checklist](exam-day-checklist.md). Stop studying by early evening. |
 
 ### Core 2 (220-1202) week
@@ -31,7 +31,7 @@ Use it once for Core 1 and once for Core 2. Expect 1.5 to 3 hours a day.
 | 3 | Domain 2 (28%) | Read [Security](core-2/2-security.md). Do both items. Write the malware removal steps and the wireless security protocols from memory. |
 | 4 | Domain 3 (23%) | Read [Software Troubleshooting](core-2/3-software-troubleshooting.md). Do both items. Build a symptom and fix table for Windows, mobile and security issues. |
 | 5 | Domain 4 (21%), first timed run | Read [Operational Procedures](core-2/4-operational-procedures.md) and do its 2 items. Then take a full timed practice test, such as the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus). Score it by domain. |
-| 6 | Fix the weakest heavy domain | Go back to the weakest domain from day 5. Reread its "Traps that cost points" section and redo its items without the answers. Do Practice task 2 on the [PBQ page](performance-based-questions.md). |
+| 6 | Fix the weakest heavy domain | Go back to the weakest domain from day 5. Reread its "Traps that cost points" section and redo its items without the answers. |
 | 7 | Second timed run and rest | Take a second timed test in the morning. Compare domain scores with day 5. Read the [exam-day checklist](exam-day-checklist.md). Stop studying by early evening. |
 
 ### How to review a missed item

@@ -50,59 +50,6 @@ On average you have about one minute per question. A+ has many short recall item
 5. **Look for a reset button** before experimenting, and note the original state.
 6. **Stop at your time limit,** make your best choices, and move on.
 
-## Practice task 1: match ports to protocols (Core 1)
-
-A technician is reviewing firewall rules for a small office. Match each port to its protocol. Each protocol is used once, and one protocol is left over.
-
-Ports: **22, 25, 53, 143, 445, 3389**
-
-Protocols: DNS, IMAP, RDP, SMB, SMTP, SSH, Telnet
-
-<details>
-<summary>Answer</summary>
-
-| Port | Protocol |
-|---|---|
-| 22 | SSH (Secure Shell) |
-| 25 | SMTP (sending mail) |
-| 53 | DNS (name resolution) |
-| 143 | IMAP (reading mail kept on the server) |
-| 445 | SMB (file and printer sharing, also listed as CIFS) |
-| 3389 | RDP (Remote Desktop) |
-
-Telnet is left over: it uses port 23, and it sends everything, including passwords, in plain text, which is why SSH replaced it. A common miss is swapping the mail ports: SMTP 25 sends, POP3 110 and IMAP 143 retrieve. See [Core 1, Domain 2](core-1/2-networking.md#key-concepts-explained).
-
-</details>
-
-## Practice task 2: order the malware removal steps (Core 2)
-
-A user's Windows 11 Home laptop shows pop-ups and a browser that opens to an unknown search page. Put these actions in the order CompTIA's malware removal procedure uses:
-
-- Enable System Restore and create a restore point
-- Quarantine the laptop by disconnecting it from the network
-- Show the user how the infection probably happened and how to avoid it
-- Confirm the symptoms are caused by malware
-- Update the anti-malware software
-- Disable System Restore
-- Schedule scans and run updates
-- Scan and remove the malware, using safe mode if needed
-
-<details>
-<summary>Answer</summary>
-
-1. Confirm the symptoms are caused by malware (investigate and verify)
-2. Quarantine the laptop by disconnecting it from the network
-3. Disable System Restore (so the infection is not saved in, or restored from, a restore point)
-4. Update the anti-malware software
-5. Scan and remove the malware, using safe mode if needed
-6. Schedule scans and run updates
-7. Enable System Restore and create a restore point
-8. Show the user how the infection probably happened and how to avoid it (educate the end user)
-
-The objectives group steps 4 and 5 under "remediate infected systems" and also list reimaging or reinstalling as a remediation option when removal fails. The usual trap is updating or scanning before quarantining, which lets the malware spread while you work. See [Core 2, Domain 2](core-2/2-security.md#key-concepts-explained).
-
-</details>
-
 ## Practice under time
 
 PBQ skill improves fastest with timed practice. Work through the practice items on the domain pages, then take the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus) and check your pace against the plan above. Next, read [how A+ scoring works](scoring.md).

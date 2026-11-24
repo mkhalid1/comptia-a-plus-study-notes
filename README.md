@@ -1,6 +1,6 @@
 # CompTIA A+ Core 1 and Core 2 Study Notes
 
-A free, complete study guide for CompTIA A+ V15: **Core 1 (220-1201)** and **Core 2 (220-1202)**. For each of the nine official domains you get a plain-English explanation of every objective, the tables you need cold (ports, Wi-Fi standards, cables and connectors, RAM and storage, Windows tools and commands, malware removal steps), how the questions look, a method, the traps that cost points, and original practice items with full explanations: 16 across the domains, plus a 9-item diagnostic and two performance-based practice tasks. Written for people heading into their first help desk or IT support job. Every exam fact comes from CompTIA's own pages and the official objectives documents, each one [cited](docs/sources.md).
+A free, complete study guide for CompTIA A+ V15: **Core 1 (220-1201)** and **Core 2 (220-1202)**. For each of the nine official domains you get a plain-English explanation of every objective, the tables you need cold (ports, Wi-Fi standards, cables and connectors, RAM and storage, Windows tools and commands, malware removal steps), how the questions look, a method, the traps that cost points, and original practice items with full explanations: 16 across the domains, plus a 9-item diagnostic. Written for people heading into their first help desk or IT support job. Every exam fact comes from CompTIA's own pages and the official objectives documents, each one [cited](docs/sources.md).
 
 Want to see where you stand first? Take the [free timed CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus), or the in-repo [diagnostic](docs/diagnostic.md).
 
@@ -178,8 +178,6 @@ Weights are CompTIA's, per exam. Every domain guide has the same parts: what the
   - [What PBQs are](docs/performance-based-questions.md#what-pbqs-are)
   - [A pacing plan for 90 minutes](docs/performance-based-questions.md#a-pacing-plan-for-90-minutes)
   - [How to approach a PBQ](docs/performance-based-questions.md#how-to-approach-a-pbq)
-  - [Practice task 1: match ports to protocols (Core 1)](docs/performance-based-questions.md#practice-task-1-match-ports-to-protocols-core-1)
-  - [Practice task 2: order the malware removal steps (Core 2)](docs/performance-based-questions.md#practice-task-2-order-the-malware-removal-steps-core-2)
   - [Practice under time](docs/performance-based-questions.md#practice-under-time)
 - [How A+ scoring works](docs/scoring.md)
   - [The scaled score](docs/scoring.md#the-scaled-score)
