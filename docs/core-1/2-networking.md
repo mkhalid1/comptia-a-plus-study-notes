@@ -1,4 +1,6 @@
-<!-- nav:top -->[Contents](../../README.md#contents) · Previous: [Core 1, Domain 1: Mobile Devices](1-mobile-devices.md) · Next: [Core 1, Domain 3: Hardware](3-hardware.md)<!-- /nav:top -->
+<!-- nav:top -->
+[Contents](../../README.md#contents) · Previous: [Core 1, Domain 1: Mobile Devices](1-mobile-devices.md) · Next: [Core 1, Domain 3: Hardware](3-hardware.md)
+<!-- /nav:top -->
 
 # Core 1, Domain 2: Networking
 
@@ -382,4 +384,6 @@ Want more? The [free timed CompTIA A+ practice test on PrepClubs](https://prepcl
 
 ---
 
-<!-- nav:bottom -->← Previous: [Core 1, Domain 1: Mobile Devices](1-mobile-devices.md) | Next: [Core 1, Domain 3: Hardware](3-hardware.md) → | [Back to contents](../../README.md#contents)<!-- /nav:bottom -->
+<!-- nav:bottom -->
+← Previous: [Core 1, Domain 1: Mobile Devices](1-mobile-devices.md) | Next: [Core 1, Domain 3: Hardware](3-hardware.md) → | [Back to contents](../../README.md#contents)
+<!-- /nav:bottom -->

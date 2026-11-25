@@ -1,4 +1,6 @@
-<!-- nav:top -->[Contents](../../README.md#contents) · Previous: [Core 2, Domain 2: Security](2-security.md) · Next: [Core 2, Domain 4: Operational Procedures](4-operational-procedures.md)<!-- /nav:top -->
+<!-- nav:top -->
+[Contents](../../README.md#contents) · Previous: [Core 2, Domain 2: Security](2-security.md) · Next: [Core 2, Domain 4: Operational Procedures](4-operational-procedures.md)
+<!-- /nav:top -->
 
 # Core 2, Domain 3: Software Troubleshooting
 
@@ -280,4 +282,6 @@ Want more? The [free timed CompTIA A+ practice test on PrepClubs](https://prepcl
 
 ---
 
-<!-- nav:bottom -->← Previous: [Core 2, Domain 2: Security](2-security.md) | Next: [Core 2, Domain 4: Operational Procedures](4-operational-procedures.md) → | [Back to contents](../../README.md#contents)<!-- /nav:bottom -->
+<!-- nav:bottom -->
+← Previous: [Core 2, Domain 2: Security](2-security.md) | Next: [Core 2, Domain 4: Operational Procedures](4-operational-procedures.md) → | [Back to contents](../../README.md#contents)
+<!-- /nav:bottom -->

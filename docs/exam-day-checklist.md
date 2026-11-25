@@ -1,4 +1,6 @@
-<!-- nav:top -->[Contents](../README.md#contents) · Previous: [Study plans](study-plans.md) · Next: [FAQ](faq.md)<!-- /nav:top -->
+<!-- nav:top -->
+[Contents](../README.md#contents) · Previous: [Study plans](study-plans.md) · Next: [FAQ](faq.md)
+<!-- /nav:top -->
 
 # Exam-day checklist
 
@@ -54,4 +56,6 @@ Two or three days before each exam, do one final timed run, such as the [free Co
 
 ---
 
-<!-- nav:bottom -->← Previous: [Study plans](study-plans.md) | Next: [FAQ](faq.md) → | [Back to contents](../README.md#contents)<!-- /nav:bottom -->
+<!-- nav:bottom -->
+← Previous: [Study plans](study-plans.md) | Next: [FAQ](faq.md) → | [Back to contents](../README.md#contents)
+<!-- /nav:bottom -->

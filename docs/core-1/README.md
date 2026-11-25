@@ -1,4 +1,6 @@
-<!-- nav:top -->[Contents](../../README.md#contents) · Previous: [Diagnostic: Core 1 and Core 2](../diagnostic.md) · Next: [Core 1, Domain 1: Mobile Devices](1-mobile-devices.md)<!-- /nav:top -->
+<!-- nav:top -->
+[Contents](../../README.md#contents) · Previous: [Diagnostic: Core 1 and Core 2](../diagnostic.md) · Next: [Core 1, Domain 1: Mobile Devices](1-mobile-devices.md)
+<!-- /nav:top -->
 
 # Core 1 (220-1201) overview
 
@@ -71,4 +73,6 @@ When you have worked through the domain pages, take the [free CompTIA A+ practic
 
 ---
 
-<!-- nav:bottom -->← Previous: [Diagnostic: Core 1 and Core 2](../diagnostic.md) | Next: [Core 1, Domain 1: Mobile Devices](1-mobile-devices.md) → | [Back to contents](../../README.md#contents)<!-- /nav:bottom -->
+<!-- nav:bottom -->
+← Previous: [Diagnostic: Core 1 and Core 2](../diagnostic.md) | Next: [Core 1, Domain 1: Mobile Devices](1-mobile-devices.md) → | [Back to contents](../../README.md#contents)
+<!-- /nav:bottom -->

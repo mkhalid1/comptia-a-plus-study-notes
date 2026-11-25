@@ -1,4 +1,6 @@
-<!-- nav:top -->[Contents](../../README.md#contents) · Previous: [Core 2 (220-1202) overview](README.md) · Next: [Core 2, Domain 2: Security](2-security.md)<!-- /nav:top -->
+<!-- nav:top -->
+[Contents](../../README.md#contents) · Previous: [Core 2 (220-1202) overview](README.md) · Next: [Core 2, Domain 2: Security](2-security.md)
+<!-- /nav:top -->
 
 # Core 2, Domain 1: Operating Systems
 
@@ -627,4 +629,6 @@ Want more? The [free timed CompTIA A+ practice test on PrepClubs](https://prepcl
 
 ---
 
-<!-- nav:bottom -->← Previous: [Core 2 (220-1202) overview](README.md) | Next: [Core 2, Domain 2: Security](2-security.md) → | [Back to contents](../../README.md#contents)<!-- /nav:bottom -->
+<!-- nav:bottom -->
+← Previous: [Core 2 (220-1202) overview](README.md) | Next: [Core 2, Domain 2: Security](2-security.md) → | [Back to contents](../../README.md#contents)
+<!-- /nav:bottom -->

@@ -1,4 +1,6 @@
-<!-- nav:top -->[Contents](../README.md#contents) · Previous: [How A+ scoring works](scoring.md) · Next: [Exam-day checklist](exam-day-checklist.md)<!-- /nav:top -->
+<!-- nav:top -->
+[Contents](../README.md#contents) · Previous: [How A+ scoring works](scoring.md) · Next: [Exam-day checklist](exam-day-checklist.md)
+<!-- /nav:top -->
 
 # Study plans for Core 1 and Core 2
 
@@ -89,4 +91,6 @@ That is roughly three to four months in total. With IT support experience, many 
 
 ---
 
-<!-- nav:bottom -->← Previous: [How A+ scoring works](scoring.md) | Next: [Exam-day checklist](exam-day-checklist.md) → | [Back to contents](../README.md#contents)<!-- /nav:bottom -->
+<!-- nav:bottom -->
+← Previous: [How A+ scoring works](scoring.md) | Next: [Exam-day checklist](exam-day-checklist.md) → | [Back to contents](../README.md#contents)
+<!-- /nav:bottom -->

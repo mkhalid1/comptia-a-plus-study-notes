@@ -1,4 +1,6 @@
-<!-- nav:top -->[Contents](../../README.md#contents) · Previous: [Core 1, Domain 3: Hardware](3-hardware.md) · Next: [Core 1, Domain 5: Hardware and Network Troubleshooting](5-hardware-and-network-troubleshooting.md)<!-- /nav:top -->
+<!-- nav:top -->
+[Contents](../../README.md#contents) · Previous: [Core 1, Domain 3: Hardware](3-hardware.md) · Next: [Core 1, Domain 5: Hardware and Network Troubleshooting](5-hardware-and-network-troubleshooting.md)
+<!-- /nav:top -->
 
 # Core 1, Domain 4: Virtualization and Cloud Computing
 
@@ -225,4 +227,6 @@ Want more? The [free timed CompTIA A+ practice test on PrepClubs](https://prepcl
 
 ---
 
-<!-- nav:bottom -->← Previous: [Core 1, Domain 3: Hardware](3-hardware.md) | Next: [Core 1, Domain 5: Hardware and Network Troubleshooting](5-hardware-and-network-troubleshooting.md) → | [Back to contents](../../README.md#contents)<!-- /nav:bottom -->
+<!-- nav:bottom -->
+← Previous: [Core 1, Domain 3: Hardware](3-hardware.md) | Next: [Core 1, Domain 5: Hardware and Network Troubleshooting](5-hardware-and-network-troubleshooting.md) → | [Back to contents](../../README.md#contents)
+<!-- /nav:bottom -->

@@ -1,4 +1,6 @@
-<!-- nav:top -->[Contents](../../README.md#contents) · Previous: [Core 2, Domain 1: Operating Systems](1-operating-systems.md) · Next: [Core 2, Domain 3: Software Troubleshooting](3-software-troubleshooting.md)<!-- /nav:top -->
+<!-- nav:top -->
+[Contents](../../README.md#contents) · Previous: [Core 2, Domain 1: Operating Systems](1-operating-systems.md) · Next: [Core 2, Domain 3: Software Troubleshooting](3-software-troubleshooting.md)
+<!-- /nav:top -->
 
 # Core 2, Domain 2: Security
 
@@ -538,4 +540,6 @@ Want more? The [free timed CompTIA A+ practice test on PrepClubs](https://prepcl
 
 ---
 
-<!-- nav:bottom -->← Previous: [Core 2, Domain 1: Operating Systems](1-operating-systems.md) | Next: [Core 2, Domain 3: Software Troubleshooting](3-software-troubleshooting.md) → | [Back to contents](../../README.md#contents)<!-- /nav:bottom -->
+<!-- nav:bottom -->
+← Previous: [Core 2, Domain 1: Operating Systems](1-operating-systems.md) | Next: [Core 2, Domain 3: Software Troubleshooting](3-software-troubleshooting.md) → | [Back to contents](../../README.md#contents)
+<!-- /nav:bottom -->

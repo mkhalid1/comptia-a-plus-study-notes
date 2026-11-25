@@ -1,4 +1,6 @@
-<!-- nav:top -->[Contents](../../README.md#contents) · Previous: [Core 1, Domain 5: Hardware and Network Troubleshooting](../core-1/5-hardware-and-network-troubleshooting.md) · Next: [Core 2, Domain 1: Operating Systems](1-operating-systems.md)<!-- /nav:top -->
+<!-- nav:top -->
+[Contents](../../README.md#contents) · Previous: [Core 1, Domain 5: Hardware and Network Troubleshooting](../core-1/5-hardware-and-network-troubleshooting.md) · Next: [Core 2, Domain 1: Operating Systems](1-operating-systems.md)
+<!-- /nav:top -->
 
 # Core 2 (220-1202) overview
 
@@ -70,4 +72,6 @@ When you have worked through the domain pages, take the [free CompTIA A+ practic
 
 ---
 
-<!-- nav:bottom -->← Previous: [Core 1, Domain 5: Hardware and Network Troubleshooting](../core-1/5-hardware-and-network-troubleshooting.md) | Next: [Core 2, Domain 1: Operating Systems](1-operating-systems.md) → | [Back to contents](../../README.md#contents)<!-- /nav:bottom -->
+<!-- nav:bottom -->
+← Previous: [Core 1, Domain 5: Hardware and Network Troubleshooting](../core-1/5-hardware-and-network-troubleshooting.md) | Next: [Core 2, Domain 1: Operating Systems](1-operating-systems.md) → | [Back to contents](../../README.md#contents)
+<!-- /nav:bottom -->

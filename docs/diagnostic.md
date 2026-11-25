@@ -1,4 +1,6 @@
-<!-- nav:top -->[Contents](../README.md#contents) · Previous: [How CompTIA A+ works](a-plus-overview.md) · Next: [Core 1 (220-1201) overview](core-1/README.md)<!-- /nav:top -->
+<!-- nav:top -->
+[Contents](../README.md#contents) · Previous: [How CompTIA A+ works](a-plus-overview.md) · Next: [Core 1 (220-1201) overview](core-1/README.md)
+<!-- /nav:top -->
 
 # Diagnostic: Core 1 and Core 2
 
@@ -297,4 +299,6 @@ Then pick a plan: the [7-day plan](study-plans.md#7-day-plan) if you have a week
 
 ---
 
-<!-- nav:bottom -->← Previous: [How CompTIA A+ works](a-plus-overview.md) | Next: [Core 1 (220-1201) overview](core-1/README.md) → | [Back to contents](../README.md#contents)<!-- /nav:bottom -->
+<!-- nav:bottom -->
+← Previous: [How CompTIA A+ works](a-plus-overview.md) | Next: [Core 1 (220-1201) overview](core-1/README.md) → | [Back to contents](../README.md#contents)
+<!-- /nav:bottom -->

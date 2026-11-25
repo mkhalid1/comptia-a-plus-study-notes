@@ -1,4 +1,6 @@
-<!-- nav:top -->[Contents](../../README.md#contents) · Previous: [Core 1, Domain 2: Networking](2-networking.md) · Next: [Core 1, Domain 4: Virtualization and Cloud Computing](4-virtualization-and-cloud-computing.md)<!-- /nav:top -->
+<!-- nav:top -->
+[Contents](../../README.md#contents) · Previous: [Core 1, Domain 2: Networking](2-networking.md) · Next: [Core 1, Domain 4: Virtualization and Cloud Computing](4-virtualization-and-cloud-computing.md)
+<!-- /nav:top -->
 
 # Core 1, Domain 3: Hardware
 
@@ -488,4 +490,6 @@ Want more? The [free timed CompTIA A+ practice test on PrepClubs](https://prepcl
 
 ---
 
-<!-- nav:bottom -->← Previous: [Core 1, Domain 2: Networking](2-networking.md) | Next: [Core 1, Domain 4: Virtualization and Cloud Computing](4-virtualization-and-cloud-computing.md) → | [Back to contents](../../README.md#contents)<!-- /nav:bottom -->
+<!-- nav:bottom -->
+← Previous: [Core 1, Domain 2: Networking](2-networking.md) | Next: [Core 1, Domain 4: Virtualization and Cloud Computing](4-virtualization-and-cloud-computing.md) → | [Back to contents](../../README.md#contents)
+<!-- /nav:bottom -->

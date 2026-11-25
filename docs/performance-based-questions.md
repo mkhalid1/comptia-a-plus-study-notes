@@ -1,4 +1,6 @@
-<!-- nav:top -->[Contents](../README.md#contents) · Previous: [Core 2, Domain 4: Operational Procedures](core-2/4-operational-procedures.md) · Next: [How A+ scoring works](scoring.md)<!-- /nav:top -->
+<!-- nav:top -->
+[Contents](../README.md#contents) · Previous: [Core 2, Domain 4: Operational Procedures](core-2/4-operational-procedures.md) · Next: [How A+ scoring works](scoring.md)
+<!-- /nav:top -->
 
 # Performance-based questions and pacing
 
@@ -56,4 +58,6 @@ PBQ skill improves fastest with timed practice. Work through the practice items 
 
 ---
 
-<!-- nav:bottom -->← Previous: [Core 2, Domain 4: Operational Procedures](core-2/4-operational-procedures.md) | Next: [How A+ scoring works](scoring.md) → | [Back to contents](../README.md#contents)<!-- /nav:bottom -->
+<!-- nav:bottom -->
+← Previous: [Core 2, Domain 4: Operational Procedures](core-2/4-operational-procedures.md) | Next: [How A+ scoring works](scoring.md) → | [Back to contents](../README.md#contents)
+<!-- /nav:bottom -->
