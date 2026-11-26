@@ -89,7 +89,7 @@ You can sit each exam at a Pearson VUE test center or online through OnVUE. Onli
 
 ## Practice the real format
 
-Reading teaches the content; timed practice teaches the pace. When you have worked through a few domains of one core, take the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus) to see how you do against the clock, then use the [diagnostic](diagnostic.md) and the score tables on each domain page to decide what to study next.
+Reading teaches the content; timed practice teaches the pace. When you have worked through a few domains of one core, take the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=vv7axy&utm_content=a-plus) to see how you do against the clock, then use the [diagnostic](diagnostic.md) and the score tables on each domain page to decide what to study next.
 
 ---
 

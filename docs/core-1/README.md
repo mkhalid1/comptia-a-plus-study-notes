@@ -69,7 +69,7 @@ If you are new to IT, give each step a week or more. See [study plans](../study-
 
 ## Practice for Core 1
 
-When you have worked through the domain pages, take the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus) under time to check your pacing and find your weak domains. Then read [scoring](../scoring.md) and the [exam-day checklist](../exam-day-checklist.md).
+When you have worked through the domain pages, take the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=vv7axy&utm_content=a-plus) under time to check your pacing and find your weak domains. Then read [scoring](../scoring.md) and the [exam-day checklist](../exam-day-checklist.md).
 
 ---
 

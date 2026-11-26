@@ -42,7 +42,7 @@ An unanswered question cannot earn credit. If you are running out of time, make 
 
 This is our guidance, since CompTIA publishes no conversion from practice scores. Because the real passing point is not published as a percentage, aim to score **comfortably above 80%** on practice items you have not seen before, under time pressure, for the core you are about to sit. Be consistent across domains rather than very strong in one and weak in another. On Core 1, a weak Troubleshooting score (28%) can sink an otherwise good attempt; on Core 2, Operating Systems and Security are 28% each, so a gap in either is costly. Core 2's higher passing score is one more reason not to aim for a bare pass.
 
-Use the score tables at the end of each domain page to track this, and a full timed run such as the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus) to check pace.
+Use the score tables at the end of each domain page to track this, and a full timed run such as the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=vv7axy&utm_content=a-plus) to check pace.
 
 ## If you do not pass
 

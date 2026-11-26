@@ -409,7 +409,7 @@ D. Finish the repair quickly and return the laptop without comment
 
 </details>
 
-Want more? The [free timed CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus) has 25 questions across both cores, with your score split by domain.
+Want more? The [free timed CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=vv7axy&utm_content=a-plus) has 25 questions across both cores, with your score split by domain.
 
 ## Score yourself
 
@@ -426,7 +426,7 @@ Want more? The [free timed CompTIA A+ practice test on PrepClubs](https://prepcl
 
 1. Redo any item you missed without opening the explanation, and write the trap you fell for in one line.
 2. Write a one-week backup schedule on paper (full on Sunday, then incrementals, then differentials), pick a failure day and list exactly which sets you would restore for each. Then write a three-line `.bat` file that runs `ipconfig /all > C:\temp\ipinfo.txt`, run it on a test PC, and read the output.
-3. Take a timed run with the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus) to practice pacing across the whole exam.
+3. Take a timed run with the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=vv7axy&utm_content=a-plus) to practice pacing across the whole exam.
 
 ---
 

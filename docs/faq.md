@@ -72,7 +72,7 @@ There is no waiting period between your first and second attempt of an exam; bef
 
 ## Where can I practice for free?
 
-Start with the [diagnostic](diagnostic.md) and the practice items on each domain page in this repo. For a timed run in the real format, take the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus).
+Start with the [diagnostic](diagnostic.md) and the practice items on each domain page in this repo. For a timed run in the real format, take the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=vv7axy&utm_content=a-plus).
 
 ---
 

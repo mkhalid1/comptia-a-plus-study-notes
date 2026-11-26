@@ -261,7 +261,7 @@ D. Run a full antivirus scan while she keeps working
 
 </details>
 
-Want more? The [free timed CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus) has 25 questions across both cores, with your score split by domain.
+Want more? The [free timed CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=vv7axy&utm_content=a-plus) has 25 questions across both cores, with your score split by domain.
 
 ## Score yourself
 
@@ -278,7 +278,7 @@ Want more? The [free timed CompTIA A+ practice test on PrepClubs](https://prepcl
 
 1. Redo any item you missed without opening the explanation, and write the trap you fell for in one line.
 2. On a Windows PC or virtual machine, open Reliability Monitor and Event Viewer and find the last app crash and the last unexpected shutdown, run `sfc /scannow` from an admin prompt, and open the hosts file in Notepad to see what a clean one looks like. On your phone, open the battery usage and data usage screens and name the top three apps on each.
-3. Take a timed run with the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus) to practice pacing across the whole exam.
+3. Take a timed run with the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=vv7axy&utm_content=a-plus) to practice pacing across the whole exam.
 
 ---
 

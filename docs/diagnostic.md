@@ -8,7 +8,7 @@ Nine original items, one from each of the nine A+ domains, to show you where to 
 
 These items are original, written for these notes. They are not taken from CompTIA's exams or any prep provider. They are different from the practice items on the domain pages, so you can still use those afterwards.
 
-If you would rather start with a full timed run, take the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus) instead, then come back here.
+If you would rather start with a full timed run, take the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=vv7axy&utm_content=a-plus) instead, then come back here.
 
 ## Part A: Core 1, Domain 1, Mobile Devices
 

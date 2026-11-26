@@ -54,7 +54,7 @@ On average you have about one minute per question. A+ has many short recall item
 
 ## Practice under time
 
-PBQ skill improves fastest with timed practice. Work through the practice items on the domain pages, then take the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus) and check your pace against the plan above. Next, read [how A+ scoring works](scoring.md).
+PBQ skill improves fastest with timed practice. Work through the practice items on the domain pages, then take the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=vv7axy&utm_content=a-plus) and check your pace against the plan above. Next, read [how A+ scoring works](scoring.md).
 
 ---
 

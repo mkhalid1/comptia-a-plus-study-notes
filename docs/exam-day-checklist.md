@@ -52,7 +52,7 @@ Source: [CompTIA candidate testing policies](https://www.comptia.org/en/resource
 
 ## Last practice before the real one
 
-Two or three days before each exam, do one final timed run, such as the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=study-notes&utm_content=a-plus), so that the pace feels familiar. Do not take a full test the night before.
+Two or three days before each exam, do one final timed run, such as the [free CompTIA A+ practice test on PrepClubs](https://prepclubs.com/free-practice-tests/a-plus?utm_source=github&utm_medium=referral&utm_campaign=vv7axy&utm_content=a-plus), so that the pace feels familiar. Do not take a full test the night before.
 
 ---
 
